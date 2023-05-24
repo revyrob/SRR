@@ -6,7 +6,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useState, useEffect } from "react";
 import concernData from "../../data/concerns.json";
-import "./moonCarousel.scss";
+import "./Concerns.scss";
 
 const Concerns = () => {
   //create a state with project data
@@ -42,12 +42,12 @@ const Concerns = () => {
   console.log(concerns);
   return (
     <>
-      <div className="moonCarousel">
+      <div className="concerns">
         {hasCon === true && (
           <>
-            <div className="moonCarousel__header">
-              <h1 className="moonCarousel__header--title">Areas of Concern</h1>
-              <h3 className="moonCarousel__header--subtitle">
+            <div className="concerns__header">
+              <h1 className="concerns__header--title">Areas of Concern</h1>
+              <h3 className="concerns__header--subtitle">
                 The mine brings multiple concerns that need to be addressed...{" "}
               </h3>
             </div>
@@ -80,8 +80,8 @@ const Concerns = () => {
                           }}
                         >
                           <CardContent>
-                            <div className="moonCarousel__title">
-                              <p className="moonCarousel__input--moon">
+                            <div className="concerns__title">
+                              <p className="concerns__input--moon">
                                 {item.concern_title}
                               </p>
                             </div>

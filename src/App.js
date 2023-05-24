@@ -6,9 +6,10 @@ import Nav from "./components/Nav/Nav";
 import Banner from "./components/Banner/Banner";
 import What from "./components/What/What";
 import Concerns from "./components/Concerns/Concerns";
-import banner from "./assets/images/recordRidge.png";
+import banner from "./assets/images/mineEastKoot.png";
 import town from "./assets/images/rossland.png";
 import Action from "./components/Action/Action";
+import Who from "./components/Who/Who";
 
 //const TRACKING_ID = ""; // OUR_TRACKING_ID for google analytics
 //ReactGA.initialize(TRACKING_ID);
@@ -25,6 +26,7 @@ function App() {
       <Concerns />
       <Banner img={town} />
       <Action />
+      <Who />
     </BrowserRouter>
   );
 }

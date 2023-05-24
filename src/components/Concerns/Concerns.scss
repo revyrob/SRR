@@ -1,8 +1,8 @@
-.moonCarousel {
+.concerns {
     position: relative;
     width: 100%;
     max-width: 1280px;
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem;
   
  
   
@@ -12,25 +12,25 @@
   
   
       &--title {
-        font-size: 3rem;
-        text-align: flex-start;
-        color: red;
-        text-align: flex-start;
+        // font-size: 3rem;
+        // text-align: flex-start;
+        // color: red;
+        // text-align: flex-start;
       }
   
       &--subtitle {
-        font-size: 1.25rem;
-        text-align: flex-start;
-        margin: 1.5rem 2rem 2rem;
-        color: red;
+        // font-size: 1.25rem;
+        // text-align: flex-start;
+        // margin: 1.5rem 2rem 2rem;
+        // color: red;
       }
     }
   
     &__title {
-      display: flex;
-      justify-content: flex-start;
-      align-items: baseline;
-      margin: .5rem 0;
+      // display: flex;
+      // justify-content: flex-start;
+      // align-items: baseline;
+      // margin: .5rem 0;
   
       &--history {
         display: flex;
@@ -76,6 +76,8 @@
     padding: 20px;
     text-align: center;
     cursor: pointer;
+    width: 15rem;
+    height:20rem;
   }
   
   .items-container {
