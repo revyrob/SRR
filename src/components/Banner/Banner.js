@@ -1,12 +1,12 @@
 import React from "react";
-import banner from "../../assets/images/recordRidge.png";
+//import banner from "../../assets/images/recordRidge.png";
 
-function Banner() {
+function Banner({ img }) {
   return (
     <div>
       <img
         className="w-full h-screen object-cover"
-        src={banner}
+        src={img}
         alt="open pit mine"
       ></img>
     </div>

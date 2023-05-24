@@ -1,0 +1,54 @@
+import React from "react";
+
+function What() {
+  return (
+    <section>
+      <h1>Record Ridge Open Pit Mine</h1>
+      <p>
+        W.H.Y. Resources has applied for an open pit mine in Rossland/Paterson
+        which is in the final review stage with the provincial government, with
+        a closing date as early as the end of August 2023. The proposed mine is
+        7.5kms from our homes and the schools our children attend. It is only
+        2kms from residential properties along Highway 22 toward Paterson.
+      </p>
+      <div>
+        <h2>Summary of Proposal</h2>
+        <ul>
+          <li>
+            {" "}
+            Running 182 days/year, May to November, 12+hrs/day, 7 days/week.
+          </li>
+          <li>
+            248,000 tonnes/y for two years, with plan to increase this to one
+            million tonnes/y as part of development of a larger project,
+            expected to extend 42-170 years.
+          </li>
+          <li>
+            Weekly explosions, constant rock crushing, and heavy machinery
+            running all day.
+          </li>
+          <li>
+            Trucks hauling mine material through main street every 3-5 minutes
+            all day long, every day of the week 6am-8pm.
+          </li>
+          <li> Tailings storage of waste rock and tainted water.</li>
+          <li>Potential surface and below surface water pollution.</li>
+          <li>Proposed diesel power usage for generators.</li>
+          <li>Low levels of asbestos have been identified in the ore.  </li>
+          <li>
+            {" "}
+            Eventual a chemical processing facility based on hydrochloric acid
+            leaching. 
+          </li>
+          <li>
+            {" "}
+            We will see, smell, feel, and hear the mining. This site seems to be
+            too close to our homes and community to be a viable option.
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+export default What;
