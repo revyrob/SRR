@@ -1,68 +1,16 @@
-import React, { useState } from "react";
-import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
-import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
+import React from "react";
+import banner from "../../assets/images/recordRidge.png";
 
-const Carousel = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const data = [
-    "../../images/recordRidge.png",
-    "../../images/rossland.png",
-    "../../images/recordRidge.png",
-  ];
-
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? 2 : (prev) => prev - 1);
-  };
-
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === 2 ? 0 : (prev) => prev + 1);
-  };
-
+function Banner() {
   return (
-    <>
-      <section className="w-[99%]">
-        {/* height is in vh */}
-        <div className="h-[calc(95vh_-_100px)] w-screen relative overflow-hidden ">
-          <div
-            className="h-full flex w-[300%] transition-all duration-1000"
-            //if in vw than it pictures look best
-            style={{ transform: `translate(-${currentSlide * 100}vw)` }}
-          >
-            <img
-              className="w-screen h-full object-cover"
-              src={data[0]}
-              alt="slide 0"
-            ></img>
-            <img
-              className="w-screen h-full object-cover"
-              src={data[1]}
-              alt="slide 1"
-            ></img>
-            <img
-              className="w-screen h-full object-cover"
-              src={data[2]}
-              alt="slide 2"
-            ></img>
-          </div>
-          <div className="absolute bottom-5 inset-x-0 flex justify-center gap-2.5">
-            <div
-              className="w-2 h-1 flex flex-col justify-center items-center cursor-pointer text-white mx-4 "
-              onClick={prevSlide}
-            >
-              <ArrowBackOutlinedIcon />
-            </div>
-            <div
-              className="w-2 h-1 flex flex-col justify-center items-center cursor-pointer text-white  mx-4"
-              onClick={nextSlide}
-            >
-              <ArrowForwardOutlinedIcon />
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
+    <div>
+      <img
+        className="w-full h-screen object-cover"
+        src={banner}
+        alt="open pit mine"
+      ></img>
+    </div>
   );
-};
+}
 
-export default Carousel;
+export default Banner;

@@ -8,21 +8,16 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../../assets/icons/mountainIcon.png";
-//import LanguageSelector from "../LanguageSelector/LanguageSelector";
-import { LanguageContext } from "../../Language";
 import { useState } from "react";
-import React, { useContext } from "react";
 
 function Nav() {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  const [lang, setLang] = useState(null);
-  const open = Boolean(lang);
+  //const [lang, setLang] = useState(null);
+  //const open = Boolean(lang);
 
-  const { dictionary } = useContext(LanguageContext);
-
-  const handleClose = () => {
-    setLang(null);
-  };
+  // const handleClose = () => {
+  //   setLang(null);
+  // };
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -32,10 +27,10 @@ function Nav() {
   };
 
   //get the headings
-  const headings = dictionary.nav;
+  const headings = ["What", "Concerns", "Actions", "Who"];
   return (
-    <AppBar position="static" className="bg-gray-900 max-w-screen-xl mx-auto ">
-      <Container maxWidth="2xl" className="bg-gray-900">
+    <AppBar position="static" className="bg-gray-500 max-w-screen-xl mx-auto ">
+      <Container maxWidth="2xl" className="bg-gray-500">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -53,11 +48,7 @@ function Nav() {
             }}
           >
             <a href="/" className="flex items-center">
-              <img
-                src={logo}
-                className="h-6 mr-3 sm:h-9"
-                alt="briancon fantomes logo"
-              />
+              <img src={logo} className="h-6 mr-3 sm:h-9" alt="mountain town" />
             </a>
           </Typography>
 
@@ -100,10 +91,6 @@ function Nav() {
                   </a>
                 </MenuItem>
               ))}
-
-              <MenuItem>
-                <LanguageSelector styling="border-none bg-white font-Roboto" />
-              </MenuItem>
             </Menu>
           </Box>
           <Typography
@@ -141,10 +128,9 @@ function Nav() {
                 </Typography>
               </a>
             ))}
-            <LanguageSelector styling="border-none bg-gray-900 font-Roboto" />
           </Box>
 
-          <Menu
+          {/* <Menu
             anchorEl={lang}
             id="language"
             open={open}
@@ -178,9 +164,9 @@ function Nav() {
             }}
             transformOrigin={{ horizontal: "right", vertical: "top" }}
             anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
-          ></Menu>
+          ></Menu> */}
 
-          <a href="#tour">
+          <a href="#petition">
             <Box
               sx={{
                 flexGrow: 0,
@@ -192,7 +178,7 @@ function Nav() {
                 type="button"
                 className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
               >
-                {dictionary.button}
+                Petition
               </button>
             </Box>
           </a>
