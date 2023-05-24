@@ -1,0 +1,126 @@
+
+
+a:link {
+    color: rgb(169, 9, 49);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(169, 9, 49);
+    text-decoration: none;
+  }
+  
+//   .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+//     background-color: rgb(248, 173, 173)smoke;
+//   }
+  
+  .footer {
+    background-color: rgb(193, 195, 193) !important;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  
+    &__wrapper {
+      background-color: rgb(196, 197, 196);
+      display: flex;
+      flex-direction: column;
+    }
+  
+    &__nav {
+      display: flex;
+      flex-direction: column;
+      //margin: 2rem 2rem 2rem;
+      margin: 4rem 4rem 2rem;
+      //padding-bottom: 1rem;
+      padding-bottom: 2rem;
+      justify-content: space-around;
+      border-bottom: 1px solid grey;
+      align-items: start;
+  
+    //   @include tablet {
+    //     padding-bottom: 2rem;
+    //     margin: 4rem 4rem 2rem;
+    //   }
+  
+    //   @include tablet {
+    //     align-items: start;
+    //   }
+  
+      &--name {
+        display: flex;
+        color: black;
+        margin: -1rem auto 0;
+  
+        // @include tablet {
+        //   margin: -1rem auto 0;
+        // }
+      }
+  
+      &--title {
+        display: flex;
+        //flex-direction: column;
+        justify-content: space-around;
+        width: 45%;
+  
+        // @include tablet {
+        //   flex-direction: row;
+        //   width: 40%;
+        // }
+  
+        &--link {
+          margin-bottom: .75rem;
+  
+        //   @include tablet {
+        //     margin-bottom: 0;
+        //   }
+        }
+      }
+    }
+  
+    &__copyright {
+      padding-bottom: 1rem;
+      color: black;
+      margin: 0 auto;
+    }
+  
+    &__team {
+      display: flex;
+      justify-content: space-between;
+      width: 170px;
+      align-items: center;
+      margin: 0 auto;
+  
+      &--mem {
+        width: 45px;
+        height: 45px;
+        background-color: transparent;
+        border-radius: 50%;
+  
+        &:hover {
+          width: 75px;
+          height: 75px;
+          transition-property: all;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-duration: 1s;
+          cursor: pointer;
+        }
+  
+        &--img {
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+  
+          &:hover {
+            width: 75px;
+            height: 75px;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 1s;
+          }
+        }
+      }
+    }
+  }

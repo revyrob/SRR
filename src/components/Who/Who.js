@@ -2,12 +2,14 @@ import React from "react";
 
 function Who() {
   return (
-    <section>
+    <section className="p-12 leading-8">
       <h1>Who is Proposing the Project</h1>
-      <h3>West High Yield (WHY) Resources Ltd. Open Pit Mine</h3>
+      <p className="pl-4 pb-4">
+        West High Yield (WHY) Resources Ltd. Open Pit Mine
+      </p>
       <div>
-        <h2>Who</h2>
-        <p>
+        <h2 className="font-bold">Who</h2>
+        <p className="pb-8">
           West High Yield (WHY) Resources Ltd. is a junior explorer’s management
           team let by Frank Marasco Jr. W.H.Y. Resources went public in 2006
           after carrying out initial exploration activities at Midnight. Within
@@ -20,8 +22,8 @@ function Who() {
       </div>
 
       <div>
-        <h2>What</h2>
-        <p>
+        <h2 className="font-bold">What</h2>
+        <p className="pb-8">
           Open pit mine that West High Yield (WHY) Resources Ltd. is proposing
           to open in the Record Ridge area, on the unceded territory of the
           Sinixt and other First Nations, near Rossland, Paterson and Sheep
@@ -30,7 +32,7 @@ function Who() {
       </div>
 
       <div>
-        <h2>Where</h2>
+        <h2 className="font-bold">Where</h2>
         <img src="" alt="map of the opening mining proposal"></img>
       </div>
     </section>

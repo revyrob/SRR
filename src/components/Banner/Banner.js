@@ -5,7 +5,7 @@ function Banner({ img }) {
   return (
     <div>
       <img
-        className="w-full h-screen object-cover"
+        className="w-full h-[90vh] object-cover"
         src={img}
         alt="open pit mine"
       ></img>

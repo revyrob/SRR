@@ -2,27 +2,30 @@ import React from "react";
 
 function Action() {
   return (
-    <section>
-      <h1>Action</h1>
-      <h2>What can we do?</h2>
-      <ul>
+    <section className="p-12 leading-8">
+      <h1 className="pb-4">Action</h1>
+      <h2 className="font-bold pl-4 pb-4">What can we do?</h2>
+      <ul className="px-8">
         <li>
           1. Educate yourself and avoid complacency. Read the company’s
           technical report and mining proposal. Listen to their interviews about
           their plans for this mine site.
-          <li> Check-out the interviews regarding the meeting on CBC. </li>
-          <li>
-            <a href="https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15985718-alcohol-harm-reduction-theme-song-boredom-boring-climate">
-              May 18
-            </a>{" "}
-            with the mayor of Rossland.
-          </li>
-          <li>
-            <a href="https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15985997-g7-update-japan-theme-song-boredom-screen-review">
-              May 19
-            </a>{" "}
-            with Frank Marasco Jr, the lead for the management team.
-          </li>
+          <div className="px-12">
+            <li> Check-out the interviews regarding the meeting on CBC. </li>
+            <li>
+              <a href="https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15985718-alcohol-harm-reduction-theme-song-boredom-boring-climate">
+                May 18
+              </a>{" "}
+              with the mayor of Rossland.
+            </li>
+
+            <li>
+              <a href="https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15985997-g7-update-japan-theme-song-boredom-screen-review">
+                May 19
+              </a>{" "}
+              with Frank Marasco Jr, the lead for the management team.
+            </li>
+          </div>
         </li>
 
         <li>
@@ -49,46 +52,52 @@ function Action() {
 
         <li>
           6. Contact government officials with a letter of your concerns.
-          <li>
-            {" "}
-            👉 Check out our letter ✉️{" "}
-            <a href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing">
-              here
-            </a>{" "}
-            ✉️
-          </li>
-          <li>
-            Southeast Mines Office -{" "}
-            <a href="mailto:MMD-Cranbrook@gov.bc.ca">MMD-Cranbrook@gov.bc.ca</a>
-          </li>
-          <li>
-            Kathie Wagar, Regional Director for SE Mines Office{" "}
-            <a href="mailto:kathie.wagar@gov.bc.ca">kathie.wagar@gov.bc.ca</a>
-          </li>
-          <li>
-            Ministry of Energy, Mines, and Low Carbon Innovation (Honourble
-            Jodie Osborne) -{" "}
-            <a href="mailto:EMLI.minister@gov.bc.ca">EMLI.minister@gov.bc.ca</a>
-          </li>
-          <li>
-            MLA Kootenay West and Minister of Finance (Honourable Katrine
-            Conroy) -{" "}
-            <a href="mailto:Katrine.Conroy.MLA@leg.bc.ca">
-              Katrine.Conroy.MLA@leg.bc.ca
-            </a>
-          </li>
-          <li>
-            Federal Minister of Resources and MP for South Okanagan-West
-            Kootenay (MP Richard Cannings) -{" "}
-            <a href="mailto:richard.cannings@parl.gc.ca">
-              richard.cannings@parl.gc.ca
-            </a>
-          </li>
-          <li>
-            Minister of Environment and Climate Change Strategy (Honourable
-            George Heyman) -{" "}
-            <a href="mailto:ENV.Minister@gov.bc.ca">ENV.Minister@gov.bc.ca</a>
-          </li>
+          <div className="px-12">
+            <li>
+              {" "}
+              👉 Check out our letter ✉️{" "}
+              <a href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing">
+                here
+              </a>{" "}
+              ✉️
+            </li>
+            <li>
+              Southeast Mines Office -{" "}
+              <a href="mailto:MMD-Cranbrook@gov.bc.ca">
+                MMD-Cranbrook@gov.bc.ca
+              </a>
+            </li>
+            <li>
+              Kathie Wagar, Regional Director for SE Mines Office{" "}
+              <a href="mailto:kathie.wagar@gov.bc.ca">kathie.wagar@gov.bc.ca</a>
+            </li>
+            <li>
+              Ministry of Energy, Mines, and Low Carbon Innovation (Honourble
+              Jodie Osborne) -{" "}
+              <a href="mailto:EMLI.minister@gov.bc.ca">
+                EMLI.minister@gov.bc.ca
+              </a>
+            </li>
+            <li>
+              MLA Kootenay West and Minister of Finance (Honourable Katrine
+              Conroy) -{" "}
+              <a href="mailto:Katrine.Conroy.MLA@leg.bc.ca">
+                Katrine.Conroy.MLA@leg.bc.ca
+              </a>
+            </li>
+            <li>
+              Federal Minister of Resources and MP for South Okanagan-West
+              Kootenay (MP Richard Cannings) -{" "}
+              <a href="mailto:richard.cannings@parl.gc.ca">
+                richard.cannings@parl.gc.ca
+              </a>
+            </li>
+            <li>
+              Minister of Environment and Climate Change Strategy (Honourable
+              George Heyman) -{" "}
+              <a href="mailto:ENV.Minister@gov.bc.ca">ENV.Minister@gov.bc.ca</a>
+            </li>
+          </div>
         </li>
 
         <li>7. Share this website with friends and family.</li>
