@@ -9,6 +9,7 @@ import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../../assets/icons/mountainIcon.png";
 import { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Nav() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -110,11 +111,7 @@ function Nav() {
             }}
           >
             <a href="/" className="flex items-center">
-              <img
-                src={logo}
-                className="h-6 mr-3 sm:h-9"
-                alt="briancon fantomes logo"
-              />
+              <img src={logo} className="h-6 mr-3 sm:h-9" alt="mountain town" />
             </a>
           </Typography>
           <Box
@@ -130,42 +127,6 @@ function Nav() {
             ))}
           </Box>
 
-          {/* <Menu
-            anchorEl={lang}
-            id="language"
-            open={open}
-            onClose={handleClose}
-            onClick={handleClose}
-            PaperProps={{
-              elevation: 0,
-              sx: {
-                overflow: "visible",
-                filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
-                mt: 1.5,
-                "& .MuiAvatar-root": {
-                  width: 32,
-                  height: 32,
-                  ml: -0.5,
-                  mr: 1,
-                },
-                "&:before": {
-                  content: '""',
-                  display: "block",
-                  position: "absolute",
-                  top: 0,
-                  right: 14,
-                  width: 10,
-                  height: 10,
-                  bgcolor: "background.paper",
-                  transform: "translateY(-50%) rotate(45deg)",
-                  zIndex: 0,
-                },
-              },
-            }}
-            transformOrigin={{ horizontal: "right", vertical: "top" }}
-            anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
-          ></Menu> */}
-
           <a href="#petition">
             <Box
               sx={{
@@ -174,12 +135,17 @@ function Nav() {
                 marginBottom: ".375rem",
               }}
             >
-              <button
-                type="button"
-                className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+              <Link
+                to="https://form.jotform.com/231375084434051"
+                target="_blank"
               >
-                Petition
-              </button>
+                <button
+                  type="button"
+                  className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+                >
+                  Petition
+                </button>
+              </Link>
             </Box>
           </a>
         </Toolbar>

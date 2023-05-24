@@ -2,7 +2,7 @@ import React from "react";
 
 function Who() {
   return (
-    <section className="p-12 leading-8">
+    <section className="p-12 leading-8" id="who">
       <h1>Who is Proposing the Project</h1>
       <p className="pl-4 pb-4">
         West High Yield (WHY) Resources Ltd. Open Pit Mine

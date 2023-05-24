@@ -42,7 +42,7 @@ const Concerns = () => {
   console.log(concerns);
   return (
     <>
-      <div className="concerns">
+      <div className="concerns" id="concerns">
         {hasCon === true && (
           <>
             <div className="concerns__header">
