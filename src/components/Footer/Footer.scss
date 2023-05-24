@@ -10,9 +10,9 @@ a:link {
     text-decoration: none;
   }
   
-//   .css-hip9hq-MuiPaper-root-MuiAppBar-root {
-//     background-color: rgb(248, 173, 173)smoke;
-//   }
+  .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: rgb(248, 173, 173)smoke;
+  }
   
   .footer {
     background-color: rgb(193, 195, 193) !important;
@@ -38,25 +38,16 @@ a:link {
       padding-bottom: 2rem;
       justify-content: space-around;
       border-bottom: 1px solid grey;
-      align-items: start;
+      //align-items: start;
   
-    //   @include tablet {
-    //     padding-bottom: 2rem;
-    //     margin: 4rem 4rem 2rem;
-    //   }
-  
-    //   @include tablet {
-    //     align-items: start;
-    //   }
+
   
       &--name {
         display: flex;
         color: black;
         margin: -1rem auto 0;
   
-        // @include tablet {
-        //   margin: -1rem auto 0;
-        // }
+   
       }
   
       &--title {
@@ -65,17 +56,12 @@ a:link {
         justify-content: space-around;
         width: 45%;
   
-        // @include tablet {
-        //   flex-direction: row;
-        //   width: 40%;
-        // }
+      
   
         &--link {
           margin-bottom: .75rem;
   
-        //   @include tablet {
-        //     margin-bottom: 0;
-        //   }
+       
         }
       }
     }

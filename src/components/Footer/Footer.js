@@ -22,15 +22,6 @@ function Footer() {
               <h4 className="footer__nav--title--link">Actions</h4>
             </Link>
           </div>
-          {/* <div className="footer__nav--name">
-            <img
-              className="footer__nav--title--link"
-              scr={mountain}
-              alt={"mountain"}
-            />
-
-            <h3 className="footer__nav--title--link">Save Record Ridge</h3>
-          </div> */}
         </div>
         <div className="footer__team">
           <h3 className="footer__nav--title--link">Save Record Ridge</h3>
