@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useState, useEffect } from "react";
-import concernData from "../../data/concerns.json";
+import concernData from "../../assets/data/concerns.json";
 import "./Concerns.scss";
 
 const Concerns = () => {
@@ -75,12 +75,19 @@ const Concerns = () => {
                             width: 200,
                             height: 440,
                             bgcolor: "rgb(36, 37, 93)",
-                            padding: ".5rem",
+
                             boxShadow: 6,
                           }}
                         >
                           <CardContent>
-                            <div className="concerns__title">
+                            <div
+                              className="concerns__title"
+                              style={{
+                                backgroundImage: `url(${item.concern_img})`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                              }}
+                            >
                               <p className="concerns__input--moon">
                                 {item.concern_title}
                               </p>

@@ -50,7 +50,8 @@ function Nav() {
           >
             <a href="/" className="flex items-center">
               <img src={logo} className="h-6 mr-3 sm:h-9" alt="mountain town" />
-            </a>
+            </a>{" "}
+            SaveRecordRidge
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -108,11 +109,13 @@ function Nav() {
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
+              fontSize: 15,
             }}
           >
-            <a href="/" className="flex items-center">
+            {/* <a href="/" className="flex items-center">
               <img src={logo} className="h-6 mr-3 sm:h-9" alt="mountain town" />
-            </a>
+            </a>{" "} */}
+            SaveRecordRidge
           </Typography>
           <Box
             className="flex justify-left items-center"
