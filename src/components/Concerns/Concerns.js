@@ -39,80 +39,76 @@ const Concerns = () => {
       });
     }
   };
-  console.log(concerns);
   return (
-    <>
-      <div className="concerns" id="concerns">
-        {hasCon === true && (
-          <>
-            <div className="concerns__header">
-              <h1 className="concerns__header--title">Areas of Concern</h1>
-              <h3 className="concerns__header--subtitle">
-                The mine brings multiple concerns that need to be addressed...{" "}
-              </h3>
-            </div>
-            <div className="carousel__container">
-              <div className="slide-container">
-                {concerns.length > 1 ? (
-                  <ChevronLeftIcon
-                    fontSize="large"
-                    cursor="pointer"
-                    onClick={scrollLeft}
-                  ></ChevronLeftIcon>
-                ) : (
-                  <div></div>
-                )}
+    <div className="concerns bg-stone-200" id="concerns">
+      {hasCon === true && (
+        <>
+          <div className="concerns__header">
+            <h1 className="concerns__header--title">Areas of Concern</h1>
+            <h3 className="concerns__header--subtitle">
+              The mine brings multiple concerns that need to be addressed...{" "}
+            </h3>
+          </div>
+          <div className="carousel__container">
+            <div className="slide-container">
+              {concerns.length > 1 ? (
+                <ChevronLeftIcon
+                  fontSize="large"
+                  cursor="pointer"
+                  onClick={scrollLeft}
+                ></ChevronLeftIcon>
+              ) : (
+                <div></div>
+              )}
 
-                <div className="items-container" ref={listRef}>
-                  {concerns.map((item) => {
-                    return (
-                      <div
-                        key={item.concern_id}
-                        className="single-item-container"
+              <div className="items-container" ref={listRef}>
+                {concerns.map((item) => {
+                  return (
+                    <div
+                      key={item.concern_id}
+                      className="single-item-container"
+                    >
+                      <Card
+                        sx={{
+                          width: 200,
+                          height: 440,
+                          bgcolor: "rgb(36, 37, 93)",
+                          boxShadow: 6,
+                        }}
                       >
-                        <Card
-                          sx={{
-                            width: 200,
-                            height: 440,
-                            bgcolor: "rgb(36, 37, 93)",
-
-                            boxShadow: 6,
-                          }}
-                        >
-                          <CardContent>
-                            <div
-                              className="concerns__title"
-                              style={{
-                                backgroundImage: `url(${item.concern_img})`,
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                              }}
-                            >
-                              <p className="concerns__input--moon">
-                                {item.concern_title}
-                              </p>
-                            </div>
-                          </CardContent>
-                        </Card>
-                      </div>
-                    );
-                  })}
-                </div>
-                {concerns.length > 1 ? (
-                  <ChevronRightIcon
-                    fontSize="large"
-                    cursor="pointer"
-                    onClick={scrollRight}
-                  ></ChevronRightIcon>
-                ) : (
-                  <div></div>
-                )}
+                        <CardContent>
+                          <div
+                            className="concerns__title"
+                            style={{
+                              backgroundImage: `url(${item.concern_img})`,
+                              backgroundSize: "cover",
+                              backgroundPosition: "center",
+                            }}
+                          >
+                            <p className="concerns__input--moon">
+                              {item.concern_title}
+                            </p>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  );
+                })}
               </div>
+              {concerns.length > 1 ? (
+                <ChevronRightIcon
+                  fontSize="large"
+                  cursor="pointer"
+                  onClick={scrollRight}
+                ></ChevronRightIcon>
+              ) : (
+                <div></div>
+              )}
             </div>
-          </>
-        )}
-      </div>
-    </>
+          </div>
+        </>
+      )}
+    </div>
   );
 };
 

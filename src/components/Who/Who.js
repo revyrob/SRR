@@ -31,10 +31,10 @@ function Who() {
         </p>
       </div>
 
-      <div>
+      {/* <div>
         <h2 className="font-bold">Where</h2>
         <img src="" alt="map of the opening mining proposal"></img>
-      </div>
+      </div> */}
     </section>
   );
 }

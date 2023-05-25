@@ -30,8 +30,8 @@ function Nav() {
   //get the headings
   const headings = ["What", "Concerns", "Actions", "Who"];
   return (
-    <AppBar position="static" className="bg-gray-500 max-w-screen-xl mx-auto ">
-      <Container maxWidth="2xl" className="bg-gray-500">
+    <AppBar position="static" className="bg-green-600 max-w-screen-xl mx-auto ">
+      <Container maxWidth="2xl" className="bg-green-600">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -49,7 +49,11 @@ function Nav() {
             }}
           >
             <a href="/" className="flex items-center">
-              <img src={logo} className="h-6 mr-3 sm:h-9" alt="mountain town" />
+              <img
+                src={logo}
+                className="h-6 mr-3 sm:h-9 "
+                alt="mountain town"
+              />
             </a>{" "}
             SaveRecordRidge
           </Typography>

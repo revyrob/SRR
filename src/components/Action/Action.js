@@ -2,7 +2,7 @@ import React from "react";
 
 function Action() {
   return (
-    <section className="p-12 leading-8" id="actions">
+    <section className="p-2 md:p-12 leading-8" id="actions">
       <h1 className="pb-4">Action</h1>
       <h2 className="font-bold pl-4 pb-4">What can we do?</h2>
       <ul className="px-8">
@@ -54,14 +54,6 @@ function Action() {
           6. Contact government officials with a letter of your concerns.
           <div className="px-12">
             <li>
-              {" "}
-              👉 Check out our letter ✉️{" "}
-              <a href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing">
-                here
-              </a>{" "}
-              ✉️
-            </li>
-            <li>
               Southeast Mines Office -{" "}
               <a href="mailto:MMD-Cranbrook@gov.bc.ca">
                 MMD-Cranbrook@gov.bc.ca
@@ -97,6 +89,14 @@ function Action() {
               George Heyman) -{" "}
               <a href="mailto:ENV.Minister@gov.bc.ca">ENV.Minister@gov.bc.ca</a>
             </li>
+            <li className="font-bold">
+              {" "}
+              👉 Check out our letters ✉️{" "}
+              <a href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing">
+                here
+              </a>{" "}
+              ✉️
+            </li>
           </div>
         </li>
 
@@ -107,7 +107,12 @@ function Action() {
           and environment.
         </li>
 
-        <li>9. Join the fight. Contact: xxx at xxxx</li>
+        <li>
+          9. Join the fight. Contact:{" "}
+          <a href="mailto:SaveRecordRidge@gmail.com">
+            SaveRecordRidge@gmail.com
+          </a>
+        </li>
 
         <li>
           10. Be kind and considerate to those with differing views and
