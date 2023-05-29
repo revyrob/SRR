@@ -11,6 +11,7 @@ import Action from "./components/Action/Action";
 import Who from "./components/Who/Who";
 import Footer from "./components/Footer/Footer";
 import ImageArea from "./components/ImageArea/ImageArea";
+import "./App.scss";
 
 //const TRACKING_ID = ""; // OUR_TRACKING_ID for google analytics
 //ReactGA.initialize(TRACKING_ID);

@@ -13,12 +13,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function Nav() {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  //const [lang, setLang] = useState(null);
-  //const open = Boolean(lang);
 
-  // const handleClose = () => {
-  //   setLang(null);
-  // };
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -116,9 +111,6 @@ function Nav() {
               fontSize: 15,
             }}
           >
-            {/* <a href="/" className="flex items-center">
-              <img src={logo} className="h-6 mr-3 sm:h-9" alt="mountain town" />
-            </a>{" "} */}
             SaveRecordRidge
           </Typography>
           <Box

@@ -12,21 +12,32 @@ import Button from "react-bootstrap/Button";
 
 const Concerns = () => {
   //create a state with project data
-  const [concerns] = useState(concernData);
+  const [concerns, setConcerns] = useState("");
   const listRef = useRef(null);
   const [hasCon, setHasCon] = useState(false);
   //for modal
   const [show, setShow] = useState(false);
+  const [selectedItem, setSelectedItem] = useState("");
 
   //functions for modal show and not show
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
+  const handleOpen = (idConcern) => {
+    setShow(true);
+    setSelectedItem(idConcern);
+    console.log(idConcern);
+
+    console.log(show);
+  };
+
+  const getConcerns = () => {
+    setConcerns(concernData);
+    setHasCon(true);
+  };
 
   useEffect(() => {
-    if (concerns.length !== 0) {
-      setHasCon(true);
-    }
-  }, [concerns]);
+    getConcerns();
+  }, []);
 
   const scrollLeft = () => {
     if (listRef.current) {
@@ -47,6 +58,11 @@ const Concerns = () => {
       });
     }
   };
+
+  const item =
+    concerns && concerns.filter((p) => p.concern_id === selectedItem);
+  console.log(item);
+
   return (
     <div className="concerns bg-stone-200" id="concerns">
       {hasCon === true && (
@@ -75,6 +91,7 @@ const Concerns = () => {
                     <div
                       key={item.concern_id}
                       className="single-item-container"
+                      onClick={() => handleOpen(item.concern_id)}
                     >
                       <Card
                         sx={{
@@ -99,21 +116,23 @@ const Concerns = () => {
                           </div>
                         </CardContent>
                       </Card>
-                      <Modal show={show} onHide={handleShow}>
-                        <Modal.Header closeButton>
-                          <Modal.Title> {item.concern_title}</Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>{item.concern_data}</Modal.Body>
-                        <Modal.Footer>
-                          <Button variant="primary" onClick={handleClose}>
-                            Close
-                          </Button>
-                        </Modal.Footer>
-                      </Modal>
                     </div>
                   );
                 })}
               </div>
+              {show && (
+                <Modal show={show}>
+                  <Modal.Header>
+                    <Modal.Title> {item[0].concern_title}</Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>{item[0].concern_data}</Modal.Body>
+                  <Modal.Footer>
+                    <Button variant="primary" onClick={() => handleClose()}>
+                      Close
+                    </Button>
+                  </Modal.Footer>
+                </Modal>
+              )}
               {concerns.length > 1 ? (
                 <ChevronRightIcon
                   fontSize="large"
