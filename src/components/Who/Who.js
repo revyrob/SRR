@@ -3,7 +3,7 @@ import React from "react";
 function Who() {
   return (
     <section className="p-12 leading-8" id="who">
-      <h1>Who is Proposing the Project</h1>
+      <h1>Who is Proposing the Open Pit Mine?</h1>
       <p className="pl-4 pb-4">
         West High Yield (WHY) Resources Ltd. Open Pit Mine
       </p>
@@ -30,11 +30,6 @@ function Who() {
           Creek, BC.
         </p>
       </div>
-
-      {/* <div>
-        <h2 className="font-bold">Where</h2>
-        <img src="" alt="map of the opening mining proposal"></img>
-      </div> */}
     </section>
   );
 }

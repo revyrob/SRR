@@ -6,7 +6,7 @@ function ImageArea() {
   const [concerns] = useState(data);
 
   return (
-    <section className="w-full flex flex-wrap m-auto bg-stone-200">
+    <section className="w-full flex flex-wrap m-auto bg-stone-200 justify-center">
       {concerns.map((item) => (
         <img className="h-[15rem] p-4" src={item.img} alt={item.title} />
       ))}

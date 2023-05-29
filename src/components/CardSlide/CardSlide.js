@@ -8,7 +8,7 @@ function CardSlide() {
   return (
     <div
       ref={ref}
-      className="p-4 my-4 bg-gray-200 md:p-8  lg:p-12 rounded-md m-4"
+      className="p-4 my-4 bg-[#e7e5e4] md:p-8  lg:p-12 rounded-md m-4"
     >
       <div
         className="card"
