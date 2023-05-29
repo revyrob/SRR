@@ -1,4 +1,5 @@
 import React from "react";
+import CardSlide from "../CardSlide/CardSlide";
 
 function Action() {
   return (
@@ -52,7 +53,7 @@ function Action() {
 
         <li>
           6. Contact government officials with a letter of your concerns.
-          <div className="px-12">
+          {/* <div className="px-12">
             <li>
               Southeast Mines Office -{" "}
               <a href="mailto:MMD-Cranbrook@gov.bc.ca">
@@ -97,7 +98,8 @@ function Action() {
               </a>{" "}
               ✉️
             </li>
-          </div>
+          </div> */}
+          <CardSlide />
         </li>
 
         <li>7. Share this website with friends and family.</li>
