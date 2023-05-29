@@ -7,12 +7,20 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useState, useEffect } from "react";
 import concernData from "../../assets/data/concerns.json";
 import "./Concerns.scss";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 const Concerns = () => {
   //create a state with project data
   const [concerns] = useState(concernData);
   const listRef = useRef(null);
   const [hasCon, setHasCon] = useState(false);
+  //for modal
+  const [show, setShow] = useState(false);
+
+  //functions for modal show and not show
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   useEffect(() => {
     if (concerns.length !== 0) {
@@ -91,6 +99,17 @@ const Concerns = () => {
                           </div>
                         </CardContent>
                       </Card>
+                      <Modal show={show} onHide={handleShow}>
+                        <Modal.Header closeButton>
+                          <Modal.Title> {item.concern_title}</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>{item.concern_data}</Modal.Body>
+                        <Modal.Footer>
+                          <Button variant="primary" onClick={handleClose}>
+                            Close
+                          </Button>
+                        </Modal.Footer>
+                      </Modal>
                     </div>
                   );
                 })}
