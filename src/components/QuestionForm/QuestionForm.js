@@ -5,14 +5,14 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useEffect, useState, useContext } from "react";
-import { LanguageContext } from "../../Language";
+import { useEffect, useState } from "react";
+//import { LanguageContext } from "../../Language";
 
 function QuestionForm() {
   const form = useRef();
 
   //use context to bring in the dictionary of the the two languages
-  const { dictionary } = useContext(LanguageContext);
+  // const { dictionary } = useContext(LanguageContext);
 
   const intialValues = { email: "", name: "", message: "" };
   const [formValues, setFormValues] = useState(intialValues);
@@ -48,9 +48,9 @@ function QuestionForm() {
 
     //validation for email that has numbers/letters + @ + .'somthing'
     if (!values.email) {
-      errors.email = `${dictionary.blankError}`;
+      errors.email = `Cannot be blank`;
     } else if (!regex.test(values.email)) {
-      errors.email = `${dictionary.invalidFormat}`;
+      errors.email = `Invalid email format`;
     }
 
     return errors;
@@ -71,7 +71,7 @@ function QuestionForm() {
       },
       (error) => {
         //put a modal in here if it wasn't successful
-        toast(`${dictionary.notSubmitted}`);
+        toast(`Sorry your question was not sent😟`);
       }
     );
   };
@@ -83,7 +83,7 @@ function QuestionForm() {
     >
       {Object.keys(formErrors).length === 0 && isSubmitting && (
         <span className="text-white bg-green-600 inline-block w-full align-center p-2 mb-2 rounded">
-          {`${dictionary.submitted}`}
+          {`Form submitted successfully`}
         </span>
       )}
 
@@ -104,7 +104,7 @@ function QuestionForm() {
               required
               fullWidth
               id="name"
-              label={`${dictionary.form[0]}`}
+              label={`Email`}
             />
             <TextField
               name="email"
@@ -114,7 +114,7 @@ function QuestionForm() {
               required
               fullWidth
               id="email"
-              label={`${dictionary.form[1]}`}
+              label={`Name`}
               type="email"
             />
             {formErrors.email && (
@@ -128,7 +128,7 @@ function QuestionForm() {
               required
               fullWidth
               id="question"
-              label={`${dictionary.form[2]}`}
+              label={`Message`}
               onChange={handleChange}
             />
 
@@ -140,7 +140,7 @@ function QuestionForm() {
               style={{ backgroundColor: "#fcaf34", color: "white" }}
               sx={{ mt: 3, mb: 2 }}
             >
-              {`${dictionary.form[3]}`}
+              {`Submit`}
             </Button>
             <ToastContainer />
           </div>
