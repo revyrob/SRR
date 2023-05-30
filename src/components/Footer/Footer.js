@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
-import QuestionForm from "../QuestionForm/QuestionForm";
+//import QuestionForm from "../QuestionForm/QuestionForm";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import React from "react";
@@ -73,9 +73,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="pb-6 md:order-1">
-          <QuestionForm />
-        </div>
+        <div className="pb-6 md:order-1">{/* <QuestionForm /> */}</div>
       </div>
       <p className="text-white mx-auto pb-4 text-center">
         ©️ Save Record Ridge 2023
