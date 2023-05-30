@@ -54,7 +54,10 @@ function CardSlide() {
           <li className="font-bold">
             {" "}
             👉 Check out our letters ✉️{" "}
-            <a href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing">
+            <a
+              href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing"
+              target="_blank"
+            >
               here
             </a>{" "}
             ✉️

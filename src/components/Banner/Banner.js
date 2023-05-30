@@ -1,5 +1,4 @@
 import React from "react";
-//import banner from "../../assets/images/recordRidge.png";
 
 function Banner({ img }) {
   return (
