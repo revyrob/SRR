@@ -25,9 +25,6 @@ const Concerns = () => {
   const handleOpen = (idConcern) => {
     setShow(true);
     setSelectedItem(idConcern);
-    console.log(idConcern);
-
-    console.log(show);
   };
 
   const getConcerns = () => {
@@ -61,7 +58,6 @@ const Concerns = () => {
 
   const item =
     concerns && concerns.filter((p) => p.concern_id === selectedItem);
-  console.log(item);
 
   return (
     <div className="concerns bg-stone-200" id="concerns">

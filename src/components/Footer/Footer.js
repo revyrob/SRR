@@ -1,4 +1,3 @@
-import facebook from "../../assets/photos/facebook.png";
 import { HashLink as Link } from "react-router-hash-link";
 import QuestionForm from "../QuestionForm/QuestionForm";
 import { useRef } from "react";
@@ -13,19 +12,14 @@ function Footer() {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="bg-[#e7e5e4] text-slate-50">
+    <section className="bg-[#24255d] text-white">
       <div className="lg:grid grid-cols-3 px-16 pt-8" ref={ref}>
-        <div className="md:order-2 flex flex-col pb-4 align-middle text-center">
+        <div className="md:order-2 flex flex-col pb-4 align-middle justify-center text-center">
           <img
             src={logo}
             className="sm:w-[6rem] md:w-[8rem] mx-auto"
             alt="small town"
           />
-          {/* <div className="flex flex-row justify-center">
-            <a href="https://www.facebook.com/BrianconFantomes/">
-              <img className="h-8 m-2" src={facebook} alt="facebook-icon" />
-            </a>
-          </div> */}
         </div>
 
         <div className=" flex flex-col py-2 justify-middle items-center md:order-3 ">
@@ -42,7 +36,7 @@ function Footer() {
               to={`https://form.jotform.com/231375084434051`}
               target="_blank"
             >
-              <h4 className="text-slate-600 p-2 text-lg text-middle border-l-2 hover:border-x-2">
+              <h4 className="text-white p-2 text-lg text-middle border-l-2 hover:border-x-2">
                 Petition
               </h4>
             </Link>
@@ -57,7 +51,7 @@ function Footer() {
             }}
           >
             <Link smooth to="#action">
-              <h4 className="text-slate-600 p-2 text-lg text-middle border-l-2 hover:border-x-2">
+              <h4 className="text-white p-2 text-lg text-middle border-l-2 hover:border-x-2">
                 Action
               </h4>
             </Link>
@@ -72,7 +66,7 @@ function Footer() {
             }}
           >
             <Link smooth to="https://saverecordridge.blogspot.com">
-              <h4 className="text-slate-600 p-2 text-lg text-middle border-l-2 hover:border-x-2">
+              <h4 className="text-white p-2 text-lg text-middle border-l-2 hover:border-x-2">
                 Blog
               </h4>
             </Link>
@@ -83,7 +77,7 @@ function Footer() {
           <QuestionForm />
         </div>
       </div>
-      <p className="text-slate-600 mx-auto pb-4 text-center">
+      <p className="text-white mx-auto pb-4 text-center">
         ©️ Save Record Ridge 2023
       </p>
     </section>

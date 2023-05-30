@@ -3,7 +3,7 @@ import CardSlide from "../CardSlide/CardSlide";
 
 function Action() {
   return (
-    <section className="p-2 md:p-12 leading-8" id="actions">
+    <section className="p-4 md:p-12 leading-8" id="actions">
       <h1 className="pb-4">Action</h1>
       <h2 className="font-bold pl-4 pb-4">What can we do?</h2>
       <ul className="px-8">

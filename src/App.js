@@ -26,7 +26,6 @@ function App() {
       <Banner img={banner} />
       <What />
       <Concerns />
-      {/* <Banner img={town} /> */}
       <Action />
       <ImageArea />
 
