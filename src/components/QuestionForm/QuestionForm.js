@@ -57,7 +57,7 @@ function QuestionForm() {
   };
 
   useEffect(() => {
-    if (Object.keys(formErrors).length === 0 && isSubmitting) {
+    if (formErrors.length === 0 && isSubmitting) {
       submit();
     }
   }, [submit, formErrors, isSubmitting]);
