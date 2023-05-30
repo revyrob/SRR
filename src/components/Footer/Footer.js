@@ -12,7 +12,7 @@ function Footer() {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="bg-[#24255d] text-white">
+    <section className="bg-green-800 text-white">
       <div className="lg:grid grid-cols-3 px-16 pt-8" ref={ref}>
         <div className="md:order-2 flex flex-col pb-4 align-middle justify-center text-center">
           <img
@@ -73,7 +73,18 @@ function Footer() {
           </div>
         </div>
 
-        <div className="pb-6 md:order-1">{/* <QuestionForm /> */}</div>
+        <div className="pb-6 md:order-1 flex flex-col justify-around text-center">
+          <h5>
+            Contact 📧{" "}
+            <a
+              className="text-white border-bottom"
+              href="mailto:SaveRecordRidge@gmail.com"
+            >
+              Email
+            </a>
+          </h5>
+          {/* <QuestionForm /> */}
+        </div>
       </div>
       <p className="text-white mx-auto pb-4 text-center">
         ©️ Save Record Ridge 2023

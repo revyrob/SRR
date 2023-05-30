@@ -25,8 +25,8 @@ function Nav() {
   //get the headings
   const headings = ["What", "Concerns", "Actions", "Who"];
   return (
-    <AppBar position="static" className="bg-green-600 max-w-screen-xl mx-auto ">
-      <Container maxWidth="2xl" className="bg-green-600">
+    <AppBar position="static" className="bg-green-800 max-w-screen-xl mx-auto ">
+      <Container maxWidth="2xl" className="bg-green-800">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -50,7 +50,7 @@ function Nav() {
                 alt="mountain town"
               />
             </a>{" "}
-            SaveRecordRidge
+            <p className="text-black">SaveRecordRidge</p>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
