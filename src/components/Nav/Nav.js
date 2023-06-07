@@ -10,7 +10,7 @@ import logo from "../../assets/icons/mountainIcon.png";
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
-function Nav() {
+function Nav({ what, concerns, actions, who }) {
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -123,13 +123,26 @@ function Nav() {
               className="flex justify-left items-center"
               sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
             >
-              {headings.map((i) => (
-                <a href={`#${i.toLowerCase()}`} key={i.toString()}>
-                  <Typography className="text-white" sx={{ minWidth: 100 }}>
-                    {i}
-                  </Typography>
-                </a>
-              ))}
+              <a href={`#${what.toLowerCase()}`} key={what.toString()}>
+                <Typography className="text-white" sx={{ minWidth: 100 }}>
+                  {what}
+                </Typography>
+              </a>
+              <a href={`#${concerns.toLowerCase()}`} key={concerns.toString()}>
+                <Typography className="text-white" sx={{ minWidth: 100 }}>
+                  {concerns}
+                </Typography>
+              </a>{" "}
+              <a href={`#${actions.toLowerCase()}`} key={actions.toString()}>
+                <Typography className="text-white" sx={{ minWidth: 100 }}>
+                  {actions}
+                </Typography>
+              </a>{" "}
+              <a href={`#${who.toLowerCase()}`} key={who.toString()}>
+                <Typography className="text-white" sx={{ minWidth: 100 }}>
+                  {who}
+                </Typography>
+              </a>
             </Box>
 
             <a href="#petition">

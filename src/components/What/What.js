@@ -16,8 +16,8 @@ function What() {
       </div>
       <div>
         <h2 className="font-bold pb-4">Summary of Proposal</h2>
-        <ul>
-          <div className="pl-4">
+        <ul className="pl-4">
+          <div>
             <li>
               {" "}
               ▪️ Running 182 days/year, May to November, 12+hrs/day, 7

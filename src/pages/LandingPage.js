@@ -12,7 +12,7 @@ import ImageArea from "../components/ImageArea/ImageArea";
 function LandingPage() {
   return (
     <>
-      <Nav />
+      <Nav what="What" concerns="Concerns" actions="Actions" who="Who" />
       <Banner img={banner} />
       <What />
       <Concerns />

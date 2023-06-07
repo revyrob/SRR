@@ -6,7 +6,7 @@ import Letter from "../components/Letter/Letter";
 function LetterPage() {
   return (
     <>
-      <Nav />
+      <Nav what="" concerns="" actions="" who="" />
       <Letter />
       <Footer />
     </>
