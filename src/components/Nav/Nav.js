@@ -1,4 +1,3 @@
-import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -25,131 +24,139 @@ function Nav() {
   //get the headings
   const headings = ["What", "Concerns", "Actions", "Who"];
   return (
-    <AppBar position="static" className="bg-green-800 max-w-screen-xl mx-auto ">
-      <Container maxWidth="2xl" className="bg-green-800">
-        <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontWeight: 700,
-              fontFamily: "oswald",
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            <a href="/" className="flex items-center">
-              <img
-                src={logo}
-                className="h-6 mr-3 sm:h-9 "
-                alt="mountain town"
-              />
-            </a>{" "}
-            <p className="text-black">SaveRecordRidge</p>
-          </Typography>
-
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-              className="hover:text-red-700"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "left",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "left",
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
+    <section className="bg-green-800">
+      <div
+        position="static"
+        className="bg-green-800 max-w-screen-xl mx-auto border-none"
+      >
+        <Container maxWidth="2xl" className="bg-green-800">
+          <Toolbar disableGutters>
+            <Typography
+              variant="h6"
+              noWrap
+              component="a"
+              href="/"
               sx={{
-                display: { xs: "block", md: "none" },
+                mr: 2,
+                display: { xs: "none", md: "flex" },
+                fontWeight: 700,
+                fontFamily: "oswald",
+                letterSpacing: ".3rem",
+                color: "inherit",
+                textDecoration: "none",
               }}
+            >
+              <a href="/" className="flex items-center">
+                <img
+                  src={logo}
+                  className="h-6 mr-3 sm:h-9 "
+                  alt="mountain town"
+                />
+              </a>{" "}
+              <p className="text-black">SaveRecordRidge</p>
+            </Typography>
+
+            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+              <IconButton
+                size="large"
+                aria-label="account of current user"
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                onClick={handleOpenNavMenu}
+                color="inherit"
+                className="hover:text-red-700"
+              >
+                <MenuIcon />
+              </IconButton>
+              <Menu
+                id="menu-appbar"
+                anchorEl={anchorElNav}
+                anchorOrigin={{
+                  vertical: "bottom",
+                  horizontal: "left",
+                }}
+                keepMounted
+                transformOrigin={{
+                  vertical: "top",
+                  horizontal: "left",
+                }}
+                open={Boolean(anchorElNav)}
+                onClose={handleCloseNavMenu}
+                sx={{
+                  display: { xs: "block", md: "none" },
+                }}
+              >
+                {headings.map((i) => (
+                  <MenuItem onClick={handleCloseNavMenu} key={i.toString()}>
+                    <a href={`#${i.toLowerCase()}`}>
+                      <Typography
+                        className="text-black "
+                        sx={{ minWidth: 100 }}
+                      >
+                        {i}
+                      </Typography>
+                    </a>
+                  </MenuItem>
+                ))}
+              </Menu>
+            </Box>
+            <Typography
+              variant="h5"
+              noWrap
+              component="a"
+              href=""
+              sx={{
+                mr: 2,
+                display: { xs: "flex", md: "none" },
+                flexGrow: 1,
+                fontFamily: "oswald",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "inherit",
+                textDecoration: "none",
+                fontSize: 15,
+              }}
+            >
+              SaveRecordRidge
+            </Typography>
+            <Box
+              className="flex justify-left items-center"
+              sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
             >
               {headings.map((i) => (
-                <MenuItem onClick={handleCloseNavMenu} key={i.toString()}>
-                  <a href={`#${i.toLowerCase()}`}>
-                    <Typography className="text-black " sx={{ minWidth: 100 }}>
-                      {i}
-                    </Typography>
-                  </a>
-                </MenuItem>
+                <a href={`#${i.toLowerCase()}`} key={i.toString()}>
+                  <Typography className="text-white" sx={{ minWidth: 100 }}>
+                    {i}
+                  </Typography>
+                </a>
               ))}
-            </Menu>
-          </Box>
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "oswald",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-              fontSize: 15,
-            }}
-          >
-            SaveRecordRidge
-          </Typography>
-          <Box
-            className="flex justify-left items-center"
-            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
-          >
-            {headings.map((i) => (
-              <a href={`#${i.toLowerCase()}`} key={i.toString()}>
-                <Typography className="text-white" sx={{ minWidth: 100 }}>
-                  {i}
-                </Typography>
-              </a>
-            ))}
-          </Box>
-
-          <a href="#petition">
-            <Box
-              sx={{
-                flexGrow: 0,
-                marginTop: ".375rem",
-                marginBottom: ".375rem",
-              }}
-            >
-              <Link
-                to="https://form.jotform.com/231375084434051"
-                target="_blank"
-              >
-                <button
-                  type="button"
-                  className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
-                >
-                  Petition
-                </button>
-              </Link>
             </Box>
-          </a>
-        </Toolbar>
-      </Container>
-    </AppBar>
+
+            <a href="#petition">
+              <Box
+                sx={{
+                  flexGrow: 0,
+                  marginTop: ".375rem",
+                  marginBottom: ".375rem",
+                }}
+              >
+                <Link
+                  to="https://form.jotform.com/231375084434051"
+                  target="_blank"
+                >
+                  <button
+                    type="button"
+                    className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+                  >
+                    Petition
+                  </button>
+                </Link>
+              </Box>
+            </a>
+          </Toolbar>
+        </Container>
+      </div>
+    </section>
   );
 }
 export default Nav;

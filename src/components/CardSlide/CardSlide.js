@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function CardSlide() {
   const ref = useRef(null);
@@ -18,49 +19,55 @@ function CardSlide() {
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
         }}
       >
-        <div className="px-4 md:px-12">
+        <div className="px-4 md:px-12 py-8">
           <li className="pb-2">
-            Southeast Mines Office -{" "}
-            <a href="mailto:MMD-Cranbrook@gov.bc.ca">MMD-Cranbrook@gov.bc.ca</a>
+            Honourable Jodie Osborne, Ministry of Energy, Mines, and Low Carbon
+            Innovation -{" "}
+            <a href="mailto:EMLI.minister@gov.bc.ca">EMLI.minister@gov.bc.ca</a>
           </li>
           <li className="pb-2">
             Kathie Wagar, Regional Director for SE Mines Office{" "}
             <a href="mailto:kathie.wagar@gov.bc.ca">kathie.wagar@gov.bc.ca</a>
           </li>
           <li className="pb-2">
-            Ministry of Energy, Mines, and Low Carbon Innovation (Honourble
-            Jodie Osborne) -{" "}
-            <a href="mailto:EMLI.minister@gov.bc.ca">EMLI.minister@gov.bc.ca</a>
+            Southeast Mines Office -{" "}
+            <a href="mailto:MMD-Cranbrook@gov.bc.ca">MMD-Cranbrook@gov.bc.ca</a>
           </li>
+
           <li className="pb-2">
-            MLA Kootenay West and Minister of Finance (Honourable Katrine
-            Conroy) -{" "}
+            Honourable Katrine Conroy, MLA Kootenay West and Minister of Finance
+            -{" "}
             <a href="mailto:Katrine.Conroy.MLA@leg.bc.ca">
               Katrine.Conroy.MLA@leg.bc.ca
             </a>
           </li>
           <li className="pb-2">
-            Federal Minister of Resources and MP for South Okanagan-West
-            Kootenay (MP Richard Cannings) -{" "}
+            MP Richard Cannings, Federal Minister of Resources and MP for South
+            Okanagan-West Kootenay -{" "}
             <a href="mailto:richard.cannings@parl.gc.ca">
               richard.cannings@parl.gc.ca
             </a>
           </li>
           <li className="pb-2">
-            Minister of Environment and Climate Change Strategy (Honourable
-            George Heyman) -{" "}
+            Honourable George Heyman, Minister of Environment and Climate Change
+            Strategy -{" "}
             <a href="mailto:ENV.Minister@gov.bc.ca">ENV.Minister@gov.bc.ca</a>
+          </li>
+          <li className="pb-2">
+            Rajeeta Bains, Ministry of Transportation -{" "}
+            <a href="mailto:Rajeeta.Bains@gov.bc.ca">Rajeeta.Bains@gov.bc.ca</a>
+          </li>
+
+          <li className="pb-2">
+            Greg Kinnear, West Kootenay Operations -{" "}
+            <a href="mailto:Greg.Kinnear@gov.bc.ca">Greg.Kinnear@gov.bc.ca</a>
           </li>
           <li className="font-bold">
             {" "}
             👉 Optional letter template ✉️{" "}
-            <a
-              href="https://docs.google.com/document/d/1edDJj_Uud-Bm4e6b8Nm-tbs4tGvP0A7GtEBRSup5JNk/edit?usp=sharing"
-              rel="noreferrer"
-              target="_blank"
-            >
+            <Link to={"/letter"} target="_blank">
               here
-            </a>{" "}
+            </Link>{" "}
             ✉️
           </li>
         </div>

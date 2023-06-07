@@ -6,10 +6,10 @@ function Action() {
     <section className="p-4 md:p-12 leading-8" id="actions">
       <h1 className="pb-4">Action</h1>
       <h2 className="font-bold pl-4 pb-4">What can you do?</h2>
-      <ul className="px-8">
+      <ul className="px:2 md:px-8">
         <li>
           1. Educate yourself and avoid complacency.
-          <div className="px-12">
+          <div className="px-4 md:px-12">
             <li>
               i. Read the company’s{" "}
               <a
