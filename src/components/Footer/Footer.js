@@ -42,7 +42,7 @@ function Footer() {
             </Link>
           </div>
 
-          <div
+          {/* <div
             style={{
               transform: isInView ? "none" : "translateY(-200px)",
               opacity: isInView ? 1 : 0,
@@ -55,7 +55,7 @@ function Footer() {
                 Action
               </h4>
             </Link>
-          </div>
+          </div> */}
 
           <div
             style={{
