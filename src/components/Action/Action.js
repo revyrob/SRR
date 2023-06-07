@@ -10,7 +10,20 @@ function Action() {
         <li>
           1. Educate yourself and avoid complacency.
           <div className="px-12">
-            <li>i. Read the company’s technical report and mining proposal.</li>
+            <li>
+              i. Read the company’s{" "}
+              <a
+                href="https://www.sedar.com/GetFile.do?lang=EN&docClass=24&issuerNo=00023436&issuerType=03&projectNo=03468693&docId=5325680"
+                target="_blank"
+                rel="noreferrer"
+              >
+                technical report
+              </a>
+              , which is required to contain an overview of the project,
+              including its location, history, geological setting,
+              mineralization, exploration, drilling, sample preparation, data
+              verification, mineral processing, and metallurgical testing.
+            </li>
             <li>
               ii. Research past reports from SEDAR (the System for Electronic
               Document Analysis and Retrieval) on{" "}
@@ -30,30 +43,47 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
                 target="_blank"
                 rel="noreferrer"
               >
+                {" "}
                 article
               </a>{" "}
               from 2022 about the proposed mine by Rossland.
             </li>
-            <li>iii. Check out these interviews from CBC.</li>
+            <li>iii. Check out these interviews:</li>
             <ul>
               <li>
-                {" "}
-                iii. Check-out the interviews regarding the meeting on CBC.{" "}
-              </li>
-              <li>
-                <a href="https://www.cbc.ca/listen/live-radio/1-110/clip/15985719">
+                <a
+                  href="https://www.cbc.ca/listen/live-radio/1-110/clip/15985719"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   May 18
                 </a>{" "}
-                with the mayor of Rossland.
+                with City of Rossland Councillor Steward Spooner.
               </li>
 
               <li>
-                <a href="https://www.cbc.ca/listen/live-radio/1-110/clip/15986003">
+                <a
+                  href="https://www.cbc.ca/listen/live-radio/1-110/clip/15986003"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   May 19
                 </a>{" "}
-                with Frank Marasco Jr, the lead for the management team.
+                with CEO of W.H.Y., Frank Marasco Jr.
               </li>
             </ul>
+            <li>
+              iv.{" "}
+              <a
+                href="https://whyresources.com/record-ridge-magnesium-project/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                W.H.Y.'s website
+              </a>{" "}
+              and proposed mine in Rossland and the period of time they plan to
+              be in operation.
+            </li>
           </div>
         </li>
 
