@@ -53,7 +53,7 @@ function Nav({ what, concerns, actions, who }) {
                   alt="mountain town"
                 />
               </a>{" "}
-              <p className="text-black">SaveRecordRidge</p>
+              <p className="text-black">SavingRecorRidge</p>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -103,7 +103,7 @@ function Nav({ what, concerns, actions, who }) {
             <Typography
               variant="h5"
               noWrap
-              component="a"
+              //component="a"
               href=""
               sx={{
                 mr: 2,
@@ -111,7 +111,7 @@ function Nav({ what, concerns, actions, who }) {
                 flexGrow: 1,
                 fontFamily: "oswald",
                 fontWeight: 700,
-                letterSpacing: ".3rem",
+                //letterSpacing: ".3rem",
                 color: "inherit",
                 textDecoration: "none",
                 fontSize: 15,

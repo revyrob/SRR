@@ -42,21 +42,6 @@ function Footer() {
             </Link>
           </div>
 
-          {/* <div
-            style={{
-              transform: isInView ? "none" : "translateY(-200px)",
-              opacity: isInView ? 1 : 0,
-              transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s`,
-              width: "8rem",
-            }}
-          >
-            <Link smooth to="#action">
-              <h4 className="text-white p-2 text-lg text-middle border-l-2 hover:border-x-2">
-                Action
-              </h4>
-            </Link>
-          </div> */}
-
           <div
             style={{
               transform: isInView ? "none" : "translateY(-200px)",
