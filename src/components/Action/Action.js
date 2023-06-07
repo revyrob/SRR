@@ -5,27 +5,55 @@ function Action() {
   return (
     <section className="p-4 md:p-12 leading-8" id="actions">
       <h1 className="pb-4">Action</h1>
-      <h2 className="font-bold pl-4 pb-4">What can we do?</h2>
+      <h2 className="font-bold pl-4 pb-4">What can you do?</h2>
       <ul className="px-8">
         <li>
-          1. Educate yourself and avoid complacency. Read the company’s
-          technical report and mining proposal. Listen to their interviews about
-          their plans for this mine site.
+          1. Educate yourself and avoid complacency.
           <div className="px-12">
-            <li> Check-out the interviews regarding the meeting on CBC. </li>
+            <li>i. Read the company’s technical report and mining proposal.</li>
             <li>
-              <a href="https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15985718-alcohol-harm-reduction-theme-song-boredom-boring-climate">
-                May 18
-              </a>{" "}
-              with the mayor of Rossland.
+              ii. Research past reports from SEDAR (the System for Electronic
+              Document Analysis and Retrieval) on{" "}
+              <a
+                href="https://www.sedar.com/DisplayCompanyDocuments.do?lang=EN&issuerNo=00023436"
+                target="_blank"
+                rel="noreferrer"
+              >
+                W.H.Y.
+              </a>
             </li>
+            <li>
+              ii. An
+              <a
+                href="
+https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-near-rossland/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                article
+              </a>{" "}
+              from 2022 about the proposed mine by Rossland.
+            </li>
+            <li>iii. Check out these interviews from CBC.</li>
+            <ul>
+              <li>
+                {" "}
+                iii. Check-out the interviews regarding the meeting on CBC.{" "}
+              </li>
+              <li>
+                <a href="https://www.cbc.ca/listen/live-radio/1-110/clip/15985719">
+                  May 18
+                </a>{" "}
+                with the mayor of Rossland.
+              </li>
 
-            <li>
-              <a href="https://www.cbc.ca/listen/live-radio/1-110-daybreak-south/clip/15985997-g7-update-japan-theme-song-boredom-screen-review">
-                May 19
-              </a>{" "}
-              with Frank Marasco Jr, the lead for the management team.
-            </li>
+              <li>
+                <a href="https://www.cbc.ca/listen/live-radio/1-110/clip/15986003">
+                  May 19
+                </a>{" "}
+                with Frank Marasco Jr, the lead for the management team.
+              </li>
+            </ul>
           </div>
         </li>
 
