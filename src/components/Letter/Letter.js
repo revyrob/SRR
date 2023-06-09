@@ -227,11 +227,9 @@ function Letter() {
         <h4>Grassland, endangered species, and unique ecosystem</h4>
         <p>
           The grassland deserves further study and has culturally significant
-          flora and endangered grasslands. There is a SARA S1 listed plant –
-          Mountain Holly Fern (Threatened) – that has multiple documented
-          occurrences on Record Ridge and within the proposed mine site (data
-          freely available with the BC CDC). How will the province ensure that
-          the ecosystem at Record Ridge is protected?
+          flora and endangered species. There is a SARA S1 listed plant. How
+          will the province ensure that the ecosystem at Record Ridge is
+          protected?
         </p>
         <h4>Safety</h4>
         <p>
