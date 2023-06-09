@@ -15,8 +15,14 @@ function Who() {
           after carrying out initial exploration activities at Midnight. Within
           those years the owner and the executives of the WHY have been
           penalized for their "magical" stock price event in October 2018
-          (https://www.asc.ca/News-and-Publications/News-Releases/2019/01/West-High-Yield-Resources-settles-with-the-ASC).
-          There has been questions about the ability of the company from their
+          <a
+            href="https://www.asc.ca/News-and-Publications/News-Releases/2019/01/West-High-Yield-Resources-settles-with-the-ASC"
+            rel="noreferrer"
+            target="_blank"
+          >
+            (https://www.asc.ca/News-and-Publications/News-Releases/2019/01/West-High-Yield-Resources-settles-with-the-ASC)
+          </a>
+          . There has been questions about the ability of the company from their
           poor presentation at the town hall meeting in Rossland.{" "}
         </p>
       </div>
