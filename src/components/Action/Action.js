@@ -1,5 +1,7 @@
 import React from "react";
 import CardSlide from "../CardSlide/CardSlide";
+import ReactAudioPlayer from "react-audio-player";
+import interview from "../../assets/data/audio.json";
 
 function Action() {
   return (
@@ -70,6 +72,19 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
                   May 19
                 </a>{" "}
                 with CEO of W.H.Y., Frank Marasco Jr.
+              </li>
+              <li>
+                June 6 Melanie Mercier on{" "}
+                <a
+                  href="https://theecocentricblog.wordpress.com/2023/06/08/june-6-2023-the-pyrocene-canadas-forests-light-up-comment-from-chris-hatch-open-pit-magnesium-mine-near-rossland-fairy-creek-logging-deferred-again-but-old-growth-still-falling/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  EcoCentric
+                </a>{" "}
+                with Keith Wiley
+                <ReactAudioPlayer src={interview.audio} controls />
               </li>
             </ul>
             <li>
