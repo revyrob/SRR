@@ -1,71 +1,41 @@
-# Getting Started with Create React App
+# Save Record Ridge Front End Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Save Record Ridge website was created for the SaveRecordRidge group in Rossland, BC who is protesting and bringing awareness to the proposed open pit mine located 10km away from Rossland, BC.  The website brings information, media links, and concerns to citizens so that citizens can make their own decisions about the proposed open pit mine.  The website is a built with the React framework and uses a couple of libraries such as: Tailwind, Framer Motion, MUI, React-router, and React-audio-player.  The website was required within a short time period (less than 1 week) and I interacted with the group via Slack to meet requirments.  
 
-## Available Scripts
+## 🚀 Deployed Site 
 
-In the project directory, you can run:
+<a href="https://saverecordridge.ca" target="_blank">https://saverecordridge.ca</a>
 
-### `npm start`
+### Installation Steps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) To start using this app you first need to clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone git@github.com:revyrob/SRR.git
 
-### `npm test`
+2) Then you will need to install all the required packages for the application. Run this command (if you're using npm):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm i
 
-### `npm run build`
+3) Run the frontend with the following command in the folder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎥 Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Languages, Frameworks, and Libraries 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Javascript
+- React.js
+- Framer Motion
+- MUI
+- Tailwind
+- Sass
+- React-router-dom
+- React-audio-player
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Wireframe
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I use Figma to create my Wireframes.  While communicating requirements from clients I share the file is shared and feedback is given so building and expectations are met.
+Here is the Save Record Ridge wireframe 👉 <a href"https://www.figma.com/file/YGPKKAaEsnxhGVx7NAkK4p/Save-Record-Ridge?type=design&t=MUNEbVgO3KrignkQ-0" target="_blank">here</a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# SRR
