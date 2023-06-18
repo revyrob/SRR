@@ -32,7 +32,7 @@ function Who() {
         <p className="pb-8">
           Open pit mine that West High Yield (WHY) Resources Ltd. is proposing
           to open in the Record Ridge area, on the unceded territory of the
-          Sinixt and other First Nations, near Rossland, Paterson and Sheep
+          Sinixt and other Indigenous groups, near Rossland, Paterson and Sheep
           Creek, BC.
         </p>
       </div>
