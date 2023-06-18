@@ -82,21 +82,21 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
                   {" "}
                   June 6
                 </a>{" "}
-                Melanie Mercier on EcoCentric with Keith Wiley
+                Melanie Mercier on EcoCentric with Keith Wiley.
                 <ReactAudioPlayer src={interview.audio} controls />
               </li>
 
               <li className="py-2">
                 <a
-                  href="https://theecocentricblog.wordpress.com/2023/06/08/june-6-2023-the-pyrocene-canadas-forests-light-up-comment-from-chris-hatch-open-pit-magnesium-mine-near-rossland-fairy-creek-logging-deferred-again-but-old-growth-still-falling/"
+                  href="https://on.soundcloud.com/xv5w8"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
-                  June 6
+                  June 12
                 </a>{" "}
-                Melanie Mercier on EcoCentric with Keith Wiley
-                <ReactAudioPlayer src={interview.audio} controls />
+                Melanie Mercier on Kootenay Coop Radio, Kootenay Morning show
+                with Stephenie Hendricks.
               </li>
             </ul>
             <li className="py-2">
