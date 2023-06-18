@@ -9,8 +9,8 @@ function Banner({ img }) {
         alt="open pit mine"
       ></img>
       <p className="bg-black text-white p-2 pl-8">
-        Example of a Magnesium Open Pit Mine shown in this picture is the BayMag
-        in the East Kootenay which started operation in 1982{" "}
+        Example of a Magnesium Open Pit Mine shown in this picture is the Baymag
+        in the East Kootenays which started operation in 1982{" "}
       </p>
     </div>
   );
