@@ -6,12 +6,11 @@ function What() {
       <div className="py-8">
         <h1 className="pb-4">Record Ridge Open Pit Mine</h1>
         <p className="">
-          W.H.Y. Resources has applied for an open pit mine in Rossland/Paterson
-          which is in the final review stage with the provincial government,
-          with a closing date as early as the end of August 2023. The proposed
-          mine is 7.5kms from our homes and the schools our children attend. It
-          is only 2kms from residential properties along Highway 22 toward
-          Paterson.
+          W.H.Y. Resources has applied for an open pit mine permit in
+          Rossland/Paterson which is in the final review stage with the
+          provincial government, with a closing date as early as the end of
+          August 2023. The proposed mine is 2 kms from residential properties
+          along Highway 22 towards Paterson and 7 kms from schools.
         </p>
       </div>
       <div>
@@ -20,13 +19,12 @@ function What() {
           <div>
             <li>
               {" "}
-              ▪️ Running 182 days/year, May to November, 12+hrs/day, 7
-              days/week.
+              ▪️ Running 184 days/year, May to October, 12+hrs/day, 7 days/week.
             </li>
             <li>
-              ▪️ 248,000 tonnes/y for two years, with plan to increase this to
-              one million tonnes/y as part of development of a larger project,
-              expected to extend 42-170 years.
+              ▪️ 249,000 tonnes/yr for two years, with a plan to increase this
+              to one million tonnes/yr as part of development of a larger
+              project, which is expected to extend to 42-170 years.
             </li>
             <li>
               ▪️ Weekly explosions, constant rock crushing, and heavy machinery

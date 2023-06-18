@@ -11,7 +11,7 @@ function Who() {
         <h2 className="font-bold">Who</h2>
         <p className="pb-8">
           West High Yield (WHY) Resources Ltd. is a junior explorer’s management
-          team let by Frank Marasco Jr. W.H.Y. Resources went public in 2006
+          team led by Frank Marasco Jr. W.H.Y. Resources went public in 2006
           after carrying out initial exploration activities at Midnight. Within
           those years the owner and the executives of the WHY have been
           penalized for their "magical" stock price event in October 2018

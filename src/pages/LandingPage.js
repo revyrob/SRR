@@ -8,16 +8,21 @@ import Action from "../components/Action/Action";
 import Who from "../components/Who/Who";
 import Footer from "../components/Footer/Footer";
 import ImageArea from "../components/ImageArea/ImageArea";
+import allPic from "../assets/data/imagedata.json";
+import changePic from "../assets/data/changeImage.json";
 
 function LandingPage() {
   return (
     <>
       <Nav what="What" concerns="Concerns" actions="Actions" who="Who" />
       <Banner img={banner} />
+      <ImageArea images={changePic} />
+
       <What />
+
       <Concerns />
       <Action />
-      <ImageArea />
+      <ImageArea images={allPic} />
 
       <Who />
       <Footer />

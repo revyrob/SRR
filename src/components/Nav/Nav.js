@@ -53,7 +53,7 @@ function Nav({ what, concerns, actions, who }) {
                   alt="mountain town"
                 />
               </a>{" "}
-              <p className="text-black">SavingRecorRidge</p>
+              <p className="text-black">SavingRecordRidge</p>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
