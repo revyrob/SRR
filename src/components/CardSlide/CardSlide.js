@@ -62,6 +62,23 @@ function CardSlide() {
             Greg Kinnear, West Kootenay Operations -{" "}
             <a href="mailto:Greg.Kinnear@gov.bc.ca">Greg.Kinnear@gov.bc.ca</a>
           </li>
+          <li className="pb-2">
+            MLA Rob Fleming, Minister of Transportation and Infrastructure -{" "}
+            <a href="mailto:Minister.Transportation@gov.bc.ca">
+              Minister.Transportation@gov.bc.ca
+            </a>
+          </li>
+          <li className="pb-2">
+            David Eby, Premier of BC -{" "}
+            <a href="mailto:premier@gov.bc.ca">premier@gov.bc.ca</a>
+          </li>
+          <li className="pb-2">
+            Linda Worley - Chair of the RDKB, Elected Area 'B'/Lower
+            Columbia-Old Glory Official, and Chair of the Columbia River Treaty
+            Local Government Committee -{" "}
+            <a href="mailto:lworley@rdkb.com">lworley@rdkb.com</a>
+          </li>
+
           <li className="font-bold">
             {" "}
             👉 Optional letter template ✉️{" "}
