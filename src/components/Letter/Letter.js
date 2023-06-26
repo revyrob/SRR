@@ -215,14 +215,11 @@ function Letter() {
         </p>
         <h4>First Nations’ Land Rights and UNDRIP</h4>
         <p>
-          This proposed mine directly impacts the Sinixt people and their future
-          generations. It is their land we call home and it is their right to
-          protect it. This is their traditional unceded territory and they need
-          to be meaningfully consulted. A representative of the Sinixt came to
-          the community open house in Rossland on the evening of May 17th to
-          express in very strong and heartfelt words that the band DOES NOT WANT
-          IT. How will the province ensure that these indigenous people’s voices
-          are considered?
+          This proposed mine directly impacts the First Nations people and their
+          future generations. First Nations haven’t been properly consulted, it
+          is their right to be consulted and a responsibility of all Canadians,
+          especially decision makers and those who intend to intervene the land,
+          towards reconciliation.
         </p>
         <h4>Grassland, endangered species, and unique ecosystem</h4>
         <p>
