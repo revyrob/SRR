@@ -1,16 +1,23 @@
 import React from "react";
+import "./Banner.scss";
 
-function Banner({ img }) {
+function Banner({ img1, img2 }) {
   return (
-    <div>
-      <img
-        className="w-full h-[90vh] object-cover"
-        src={img}
-        alt="open pit mine"
-      ></img>
-      <p className="bg-black text-white p-2 pl-8">
-        Example of a Magnesium Open Pit Mine shown in this picture is the Baymag
-        in the East Kootenays which started operation in 1982{" "}
+    <div className="flex m-auto p-auto">
+      <div className="static">
+        <img
+          className="w-full h-[90vh] object-cover top-home1 absolute"
+          src={img1}
+          alt="open pit mine"
+        ></img>
+        <img
+          className="w-full h-[90vh] object-cover top-home2 absolute"
+          src={img2}
+          alt="open pit mine"
+        ></img>
+      </div>
+      <p className="flex justify-center items-center w-[100%] h-[100vh] bg-[transparent] text-white p-2 pl-8 z-10">
+        Proposed mine superimposed on Record Ridge{" "}
       </p>
     </div>
   );

@@ -2,7 +2,10 @@ import React from "react";
 
 function What() {
   return (
-    <section className="p-12 leading-8 max-w-screen-xl m-auto" id="what">
+    <section
+      className="p-12 pt-[90vh] leading-8 max-w-screen-xl m-auto"
+      id="what"
+    >
       <div className="py-8">
         <h1 className="pb-4">Record Ridge Open Pit Mine</h1>
         <p className="">

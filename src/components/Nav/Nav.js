@@ -24,10 +24,10 @@ function Nav({ what, concerns, actions, who }) {
   //get the headings
   const headings = ["What", "Concerns", "Actions", "Who"];
   return (
-    <section className="bg-green-800">
+    <section className="bg-green-800 h-20">
       <div
         position="static"
-        className="bg-green-800 max-w-screen-xl mx-auto border-none"
+        className="bg-green-800 max-w-screen-xl mx-auto border-none pt-1"
       >
         <Container maxWidth="2xl" className="bg-green-800">
           <Toolbar disableGutters>
@@ -54,7 +54,7 @@ function Nav({ what, concerns, actions, who }) {
                 />
               </a>{" "}
               <a href="/">
-                <p className="text-black">SavingRecordRidge</p>
+                <p className="text-white">SavingRecordRidge</p>
               </a>
             </Typography>
 
@@ -120,28 +120,20 @@ function Nav({ what, concerns, actions, who }) {
               <a href="/">SaveRecordRidge</a>
             </Typography>
             <Box
-              className="flex justify-left items-center"
+              className="flex justify-around w-[150px]"
               sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
             >
               <a href={`#${what.toLowerCase()}`} key={what.toString()}>
-                <Typography className="text-white" sx={{ minWidth: 100 }}>
-                  {what}
-                </Typography>
+                {what}
               </a>
               <a href={`#${concerns.toLowerCase()}`} key={concerns.toString()}>
-                <Typography className="text-white" sx={{ minWidth: 100 }}>
-                  {concerns}
-                </Typography>
+                {concerns}
               </a>{" "}
               <a href={`#${actions.toLowerCase()}`} key={actions.toString()}>
-                <Typography className="text-white" sx={{ minWidth: 100 }}>
-                  {actions}
-                </Typography>
+                {actions}
               </a>{" "}
               <a href={`#${who.toLowerCase()}`} key={who.toString()}>
-                <Typography className="text-white" sx={{ minWidth: 100 }}>
-                  {who}
-                </Typography>
+                {who}
               </a>
             </Box>
 
