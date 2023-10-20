@@ -7,8 +7,8 @@ function Who() {
       <p className="pl-4 pb-4">
         West High Yield (WHY) Resources Ltd. Open Pit Mine
       </p>
-      <div>
-        <h2 className="font-bold">Who</h2>
+      <div className="pl-4">
+        <h2 className="font-bold">Who are they?</h2>
         <p className="pb-8">
           West High Yield (WHY) Resources Ltd. is a junior explorer’s management
           team led by Frank Marasco Jr. W.H.Y. Resources went public in 2006
@@ -27,8 +27,8 @@ function Who() {
         </p>
       </div>
 
-      <div>
-        <h2 className="font-bold">What</h2>
+      <div className="pl-4">
+        <h2 className="font-bold">What are they proposing?</h2>
         <p className="pb-8">
           Open pit mine that West High Yield (WHY) Resources Ltd. is proposing
           to open in the Record Ridge area, on the unceded territory of the

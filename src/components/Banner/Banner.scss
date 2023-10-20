@@ -1,12 +1,10 @@
 .top-home1 {
-    animation: fadeout 10;
-    animation-iteration-count: infinite;
-    //transition: all 2s ease-out;
+    animation: fadeout 10s infinite;
+    
     }
     .top-home2 {
-        animation: fadein 10s;
-        animation-iteration-count: infinite;
-        //transition: all 2s ease-in;
+        animation: fadein 10s infinite;
+      
         }
     
     @keyframes fadeout{
