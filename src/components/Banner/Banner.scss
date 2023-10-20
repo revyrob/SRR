@@ -1,32 +1,32 @@
 .top-home1 {
-    animation: fadeout 10s infinite;
-    
+    animation: fadeout 15s ease-in-out 2s infinite; 
+    //animation-delay: 2s;
     }
-    .top-home2 {
-        animation: fadein 10s infinite;
-      
-        }
-    
-    @keyframes fadeout{
+.top-home2 {
+        animation: fadein 15s ease-in-out 2s infinite;
+    }
+
+@keyframes fadeout{
         0% { opacity:1; }
-        25% { opacity:0.75; }
+        25% { opacity:0.85; }
         50% { opacity:0.5; }
         75% { opacity:0.25; }
         100% { opacity:0; }
-        75% { opacity:0.25; }
-        50% { opacity:0.50; }
-        25% { opacity:0.75; }
-        0% { opacity:1; }
+        // 75% { opacity:0.25; }
+        // 50% { opacity:0.50; }
+        // 25% { opacity:0.75; }
+        // 0% { opacity:1; }
        
     }
+  
     @keyframes fadein{
         0% { opacity:0; }
-        25% { opacity:.25; }
+        25% { opacity:.05; }
         50% { opacity:0.5; }
         75% { opacity:0.75; }
         100% { opacity:1; }
-        75% { opacity:0.75; }
-        50% { opacity:0.5; }
-        25% { opacity:0.25; }
-        0% { opacity:0; }
+        // 75% { opacity:0.75; }
+        // 50% { opacity:0.5; }
+        // 25% { opacity:0.25; }
+        // 0% { opacity:0; }
     }
