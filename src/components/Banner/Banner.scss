@@ -2,12 +2,12 @@
     animation: fadeout 15s 2s linear; 
     }
 .top-home2 {
-        animation: fadein 15s 2s linear;
+    animation: fadein 15s 2s linear;
     }
 
 @keyframes fadeout{
         0% { opacity:1; }
-        25% { opacity:0.85; }
+        25% { opacity:1; }
         50% { opacity:0.5; }
         75% { opacity:0.25; }
         100% { opacity:0; }
@@ -16,9 +16,10 @@
   
     @keyframes fadein{
         0% { opacity:0; }
-        25% { opacity:.05; }
+        25% { opacity:0; }
         50% { opacity:0.5; }
         75% { opacity:0.75; }
         100% { opacity:1; }
 
     }
+    
