@@ -2,7 +2,7 @@ import React from "react";
 
 function What() {
   return (
-    <section className="p-12 leading-8 max-w-screen-xl m-auto" id="what">
+    <section className="p-8 pt-0 leading-8 max-w-screen-xl m-auto" id="what">
       <div className="py-8">
         <h1 className="pb-4">Record Ridge Open Pit Mine</h1>
         <p className="">
@@ -15,7 +15,7 @@ function What() {
       </div>
       <div>
         <h2 className="font-bold pb-4">Summary of Proposal</h2>
-        <ul className="pl-4">
+        <ul className="pl-0">
           <div>
             <li>
               {" "}

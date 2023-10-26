@@ -5,13 +5,13 @@ import interview from "../../assets/data/audio.json";
 
 function Action() {
   return (
-    <section className="p-12 leading-8 max-w-screen-xl m-auto" id="actions">
+    <section className="p-8 leading-8 max-w-screen-xl m-auto" id="actions">
       <h1 className="pb-4">Action</h1>
       <h2 className="font-bold pl-4 pb-4">What can you do?</h2>
       <ul className="px-2 md:px-8">
         <li className="py-2">
           1. Educate yourself and avoid complacency.
-          <div className="px-4 md:px-12">
+          <div className="px-2 md:px-12">
             <li className="py-2">
               i. Read the company’s{" "}
               <a
@@ -51,7 +51,7 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
               from 2022 about the proposed mine by Rossland.
             </li>
             <li className="py-2">iv. Check out these interviews:</li>
-            <ul>
+            <ul className="pl-2">
               <li className="py-2">
                 <a
                   href="https://www.cbc.ca/listen/live-radio/1-110/clip/15985719"

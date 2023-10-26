@@ -19,7 +19,7 @@ function CardSlide() {
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
         }}
       >
-        <div className="px-4 md:px-12 py-8">
+        <div className="px-2 md:px-12 py-8">
           <li className="pb-2">
             Honourable Jodie Osborne, Ministry of Energy, Mines, and Low Carbon
             Innovation -{" "}
