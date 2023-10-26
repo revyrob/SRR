@@ -54,7 +54,9 @@ function Nav({ what, concerns, actions, who }) {
                 />
               </a>{" "}
               <a href="/">
-                <p className="text-white">SavingRecordRidge</p>
+                <h5 className="text-white visited:text-white">
+                  SavingRecordRidge
+                </h5>
               </a>
             </Typography>
 
@@ -66,7 +68,7 @@ function Nav({ what, concerns, actions, who }) {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="inherit"
-                className="hover:text-red-700"
+                className="hover:text-white-700"
               >
                 <MenuIcon />
               </IconButton>
@@ -91,10 +93,7 @@ function Nav({ what, concerns, actions, who }) {
                 {headings.map((i) => (
                   <MenuItem onClick={handleCloseNavMenu} key={i.toString()}>
                     <a href={`#${i.toLowerCase()}`}>
-                      <Typography
-                        className="text-black "
-                        sx={{ minWidth: 100 }}
-                      >
+                      <Typography className="text-white" sx={{ minWidth: 100 }}>
                         {i}
                       </Typography>
                     </a>
@@ -112,27 +111,49 @@ function Nav({ what, concerns, actions, who }) {
                 flexGrow: 1,
                 fontFamily: "oswald",
                 fontWeight: 700,
-                color: "inherit",
+                color: "white",
                 textDecoration: "none",
                 fontSize: 15,
               }}
             >
-              <a href="/">SaveRecordRidge</a>
+              <a href="/">
+                <h5 className="text-white visited:text-white tracking-widest">
+                  SavingRecordRidge
+                </h5>
+              </a>
             </Typography>
             <Box
-              className="flex justify-around w-[150px]"
-              sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+              className="flex justify-around w-[350px] "
+              sx={{
+                display: { xs: "none", md: "flex" },
+              }}
             >
-              <a href={`#${what.toLowerCase()}`} key={what.toString()}>
+              <a
+                className="text-white"
+                href={`#${what.toLowerCase()}`}
+                key={what.toString()}
+              >
                 {what}
               </a>
-              <a href={`#${concerns.toLowerCase()}`} key={concerns.toString()}>
+              <a
+                className="text-white"
+                href={`#${concerns.toLowerCase()}`}
+                key={concerns.toString()}
+              >
                 {concerns}
               </a>{" "}
-              <a href={`#${actions.toLowerCase()}`} key={actions.toString()}>
+              <a
+                className="text-white"
+                href={`#${actions.toLowerCase()}`}
+                key={actions.toString()}
+              >
                 {actions}
               </a>{" "}
-              <a href={`#${who.toLowerCase()}`} key={who.toString()}>
+              <a
+                className="text-white"
+                href={`#${who.toLowerCase()}`}
+                key={who.toString()}
+              >
                 {who}
               </a>
             </Box>
@@ -151,7 +172,7 @@ function Nav({ what, concerns, actions, who }) {
                 >
                   <button
                     type="button"
-                    className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+                    className="tracking-wide ml-auto border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-0 md:mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
                   >
                     Petition
                   </button>

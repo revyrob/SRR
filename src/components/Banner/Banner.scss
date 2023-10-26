@@ -1,6 +1,5 @@
 .top-home1 {
     animation: fadeout 15s 2s linear; 
-    //animation-delay: 2s;
     }
 .top-home2 {
         animation: fadein 15s 2s linear;
@@ -12,11 +11,7 @@
         50% { opacity:0.5; }
         75% { opacity:0.25; }
         100% { opacity:0; }
-        75% { opacity:0.25; }
-        50% { opacity:0.50; }
-        25% { opacity:0.75; }
-        0% { opacity:1; }
-       
+
     }
   
     @keyframes fadein{
@@ -25,8 +20,5 @@
         50% { opacity:0.5; }
         75% { opacity:0.75; }
         100% { opacity:1; }
-        75% { opacity:0.75; }
-        50% { opacity:0.5; }
-        25% { opacity:0.25; }
-        0% { opacity:0; }
+
     }

@@ -19,6 +19,11 @@ function What() {
           <div>
             <li>
               {" "}
+              ▪️ The proposed processing plant will emit about 24 times more CO2
+              than all the natural gas consumed in Rossland.
+            </li>
+            <li>
+              {" "}
               ▪️ Running 184 days/year, May to October, 12+hrs/day, 7 days/week.
             </li>
             <li>
