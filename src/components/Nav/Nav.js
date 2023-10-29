@@ -93,7 +93,7 @@ function Nav({ what, concerns, actions, who }) {
                 {headings.map((i) => (
                   <MenuItem onClick={handleCloseNavMenu} key={i.toString()}>
                     <a href={`#${i.toLowerCase()}`}>
-                      <Typography className="text-white" sx={{ minWidth: 100 }}>
+                      <Typography className="text-black" sx={{ minWidth: 100 }}>
                         {i}
                       </Typography>
                     </a>
