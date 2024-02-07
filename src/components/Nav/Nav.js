@@ -166,17 +166,14 @@ function Nav({ what, concerns, actions, who }) {
                   marginBottom: ".375rem",
                 }}
               >
-                <Link
-                  to="https://form.jotform.com/231375084434051"
-                  target="_blank"
-                >
+                {/* <Link to="/#actions" target="_blank">
                   <button
                     type="button"
-                    className="tracking-wide ml-auto border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-0 md:mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+                    className="mr-auto tracking-wide ml-auto border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-0 md:mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
                   >
-                    Petition
+                    Action
                   </button>
-                </Link>
+                </Link> */}
               </Box>
             </a>
           </Toolbar>

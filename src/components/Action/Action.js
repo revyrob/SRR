@@ -10,7 +10,18 @@ function Action() {
       <h2 className="font-bold pl-4 pb-4">What can you do?</h2>
       <ul className="px-2 md:px-8">
         <li className="py-2">
-          1. Educate yourself and avoid complacency.
+          1. Write a letter to:
+          <br></br>
+          Honourable Jodie Osborne, Ministry of Energy, Mines, and Low Carbon
+          Innovation -{" "}
+          <a href="mailto:EMLI.minister@gov.bc.ca">EMLI.minister@gov.bc.ca</a>
+          <br></br>
+          Honourable George Heyman, Minister of Environment and Climate Change
+          Strategy -{" "}
+          <a href="mailto:ENV.Minister@gov.bc.ca">ENV.Minister@gov.bc.ca</a>
+        </li>
+        <li className="py-2">
+          2. Educate yourself and avoid complacency.
           <div className="px-2 md:px-12">
             <li className="py-2">
               i. Read the company’s{" "}
@@ -120,21 +131,21 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
         </li>
 
         <li className="py-2">
-          3. Show up to events to support those who do the work to take action.
+          4. Show up to events to support those who do the work to take action.
         </li>
 
         <li className="py-2">
-          4. Check out the{" "}
+          5. Check out the{" "}
           <a href="https://saverecordridge.blogspot.com">
             ‘Save Record Ridge Blog’
           </a>
           .{" "}
         </li>
 
-        <li id="petition" className="py-2">
+        {/* <li id="petition" className="py-2">
           5. Sign the petition ✍️{" "}
           <a href="https://form.jotform.com/231375084434051"> here </a> ✍️
-        </li>
+        </li> */}
 
         <li>
           6. Contact government officials with a letter of your concerns.
