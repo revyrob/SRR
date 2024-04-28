@@ -8,7 +8,6 @@ import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../../assets/icons/mountainIcon.png";
 import { useState } from "react";
-import { HashLink as Link } from "react-router-hash-link";
 
 function Nav({ what, concerns, actions, who }) {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -24,7 +23,7 @@ function Nav({ what, concerns, actions, who }) {
   //get the headings
   const headings = ["What", "Concerns", "Actions", "Who"];
   return (
-    <section className="bg-green-800 h-20">
+    <section className="bg-green-800 h-20 fixed mr-auto ml-auto z-10 w-[100vw]">
       <div
         position="static"
         className="bg-green-800 max-w-screen-xl mx-auto border-none pt-1"
@@ -165,16 +164,7 @@ function Nav({ what, concerns, actions, who }) {
                   marginTop: ".375rem",
                   marginBottom: ".375rem",
                 }}
-              >
-                {/* <Link to="/#actions" target="_blank">
-                  <button
-                    type="button"
-                    className="mr-auto tracking-wide ml-auto border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-1.5 py-1.5 text-center mx-0 md:mx-4 md:dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
-                  >
-                    Action
-                  </button>
-                </Link> */}
-              </Box>
+              ></Box>
             </a>
           </Toolbar>
         </Container>

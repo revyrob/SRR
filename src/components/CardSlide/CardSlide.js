@@ -21,7 +21,15 @@ function CardSlide() {
       >
         <div className="px-2 md:px-12 py-8">
           <li className="pb-2">
-            Honourable Jodie Osborne, Ministry of Energy, Mines, and Low Carbon
+            Chief Inspector of Mines, Ministry of Energy and Mines and Low
+            Carbon -{" "}
+            <a href="mailto:mmd-cranbrook@gov.bc.ca">mmd-cranbrook@gov.bc.ca</a>
+            <br></br>
+            Mailing address: 202-100 Cranbrook Street North, Cranbrook, B.C. V1C
+            3P9
+          </li>
+          <li className="pb-2">
+            Honourable Josie Osborne, Ministry of Energy, Mines, and Low Carbon
             Innovation -{" "}
             <a href="mailto:EMLI.minister@gov.bc.ca">EMLI.minister@gov.bc.ca</a>
           </li>

@@ -6,38 +6,45 @@ import interview from "../../assets/data/audio.json";
 function Action() {
   return (
     <section className="p-8 leading-8 max-w-screen-xl m-auto" id="actions">
-      <h1 className="pb-4">Action</h1>
+      <h1 className="pb-4">Actions</h1>
       <h2 className="font-bold pl-4 pb-4">What can you do?</h2>
-      <ul className="px-2 md:px-8">
+      <ol className="px-2 md:px-8">
         <li className="py-2">
-          1. Write a letter to:
+          1. Submit an impact statement us (SRR) and the Chief Inspector of
+          mines:
           <br></br>
-          Honourable Jodie Osborne, Ministry of Energy, Mines, and Low Carbon
-          Innovation -{" "}
-          <a href="mailto:EMLI.minister@gov.bc.ca">EMLI.minister@gov.bc.ca</a>
+          Chief Inspector of Mines, Ministry of Energy and Mines and Low Carbon
+          - <a href="mailto:mmd-cranbrook@gov.bc.ca">mmd-cranbrook@gov.bc.ca</a>
           <br></br>
-          Honourable George Heyman, Minister of Environment and Climate Change
-          Strategy -{" "}
-          <a href="mailto:ENV.Minister@gov.bc.ca">ENV.Minister@gov.bc.ca</a>
+          Mailing address: 202-100 Cranbrook Street North, Cranbrook, B.C. V1C
+          3P9
+          <br></br>
+          Save Record Ridge -{" "}
+          <a href="mailto:saverecordridge@gmail.com">
+            saverecordridge@gmail.com
+          </a>
         </li>
         <li className="py-2">
-          2. Educate yourself and avoid complacency.
+          2. Attend the public comment period on May 17th, 2024.
+        </li>
+        <li className="py-2">
+          3. Educate yourself and avoid complacency.
           <div className="px-2 md:px-12">
-            <li className="py-2">
-              i. Read the company’s{" "}
+            <li className="px-4">
+              i. Read the WHY's application:{" "}
               <a
-                href="https://www.sedar.com/GetFile.do?lang=EN&docClass=24&issuerNo=00023436&issuerType=03&projectNo=03468693&docId=5325680"
+                href="https://mines.nrs.gov.bc.ca/p/65b3e2957c6b1c00222b1eef/docs"
                 target="_blank"
                 rel="noreferrer"
               >
-                technical report
+                {" "}
+                WHY's Application
               </a>
-              , which is required to contain an overview of the project,
-              including its location, history, geological setting,
-              mineralization, exploration, drilling, sample preparation, data
-              verification, mineral processing, and metallurgical testing.
+              <br></br>
+              West High Yield (W.H.Y.) Resources Ltd.'s proposed RRIMM Project
+              is an intermediate-advanced stage
             </li>
-            <li className="py-2">
+            <li className="px-4">
               ii. Research past reports from SEDAR (the System for Electronic
               Document Analysis and Retrieval) on{" "}
               <a
@@ -48,7 +55,7 @@ function Action() {
                 W.H.Y.
               </a>
             </li>
-            <li className="py-2">
+            <li className="px-4">
               iii. An
               <a
                 href="
@@ -61,56 +68,67 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
               </a>{" "}
               from 2022 about the proposed mine by Rossland.
             </li>
-            <li className="py-2">iv. Check out these interviews:</li>
-            <ul className="pl-2">
-              <li className="py-2">
+            <li className="px-4">iv. Check out these interviews:</li>
+            <ol className="pl-2">
+              <li className="px-12">
+                <a
+                  href="https://thenarwhal.ca/rossland-mine-critical-minerals/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  August 16, 2023
+                </a>{" "}
+                A community transformed from mining town to resort destination.
+                It doesn’t want to go back
+              </li>
+              <li className="px-12">
                 <a
                   href="https://www.cbc.ca/listen/live-radio/1-110/clip/15985719"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  May 18
+                  May 18, 2023
                 </a>{" "}
                 with City of Rossland Councillor Steward Spooner.
               </li>
 
-              <li className="py-2">
+              <li className="px-12">
                 <a
                   href="https://www.cbc.ca/listen/live-radio/1-110/clip/15986003"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  May 19
+                  May 19, 2023
                 </a>{" "}
                 with CEO of W.H.Y., Frank Marasco Jr.
               </li>
-              <li className="py-2">
+              <li className="px-12">
                 <a
                   href="https://theecocentricblog.wordpress.com/2023/06/08/june-6-2023-the-pyrocene-canadas-forests-light-up-comment-from-chris-hatch-open-pit-magnesium-mine-near-rossland-fairy-creek-logging-deferred-again-but-old-growth-still-falling/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
-                  June 6
+                  June 6, 2023
                 </a>{" "}
                 Melanie Mercier on EcoCentric with Keith Wiley.
                 <ReactAudioPlayer src={interview.audio} controls />
               </li>
 
-              <li className="py-2">
+              <li className="px-12">
                 <a
                   href="https://on.soundcloud.com/xv5w8"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
-                  June 12
+                  June 12, 2023
                 </a>{" "}
                 Melanie Mercier on Kootenay Coop Radio, Kootenay Morning show
                 with Stephenie Hendricks.
               </li>
-            </ul>
-            <li className="py-2">
+            </ol>
+            <li className="px-4">
               v.{" "}
               <a
                 href="https://whyresources.com/record-ridge-magnesium-project/"
@@ -126,49 +144,44 @@ https://www.castlegarnews.com/news/mayor-concerned-about-open-pit-mine-proposal-
         </li>
 
         <li className="py-2">
-          2. Speak up, this is your community, your lifestyle…you are the one
+          4. Speak up, this is your community, your lifestyle…you are the one
           who will live with the consequences of such a mine endeavour.
         </li>
 
         <li className="py-2">
-          4. Show up to events to support those who do the work to take action.
+          5. Show up to events to support those who do the work to take action.
         </li>
 
         <li className="py-2">
-          5. Check out the{" "}
+          6. Check out the{" "}
           <a href="https://saverecordridge.blogspot.com">
             ‘Save Record Ridge Blog’
           </a>
           .{" "}
         </li>
 
-        {/* <li id="petition" className="py-2">
-          5. Sign the petition ✍️{" "}
-          <a href="https://form.jotform.com/231375084434051"> here </a> ✍️
-        </li> */}
-
         <li>
-          6. Contact government officials with a letter of your concerns.
+          7. Contact government officials with a letter of your concerns.
           <CardSlide />
         </li>
 
-        <li className="py-2">7. Share this website with friends and family.</li>
+        <li className="py-2">8. Share this website with friends and family.</li>
 
         <li className="py-2">
-          8. Create a social media post regarding the threat to the community
+          9. Create a social media post regarding the threat to the community
           and environment.
         </li>
 
         <li className="py-2">
-          9. Join the fight. Contact:{" "}
+          10. Join the fight. Contact:{" "}
           <a href="mailto:SaveRecordRidge@gmail.com">Email</a>
         </li>
 
         <li className="py-2">
-          10. Be kind and considerate to those with differing views and
+          11. Be kind and considerate to those with differing views and
           opinions.
         </li>
-      </ul>
+      </ol>
     </section>
   );
 }
