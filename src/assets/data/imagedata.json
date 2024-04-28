@@ -1,22 +1,33 @@
 [
   {
-    "img": "../../images/recordRidge.png",
-    "title": "record ridge 1",
+    "img": "../../images/FORR_Before_.webp",
+    "title": "record ridge before min",
     "cols": 2
   },
   {
-    "img": "../../images/recordRidge2.jpg",
-    "title": "record ridge 1",
+    "img": "../../images/recordRidge.webp",
+    "title": "record ridge bike trail",
     "cols": 2
   },
   {
-    "img": "../../images/recordRidge3.jpg",
-    "title": "record ridge 1",
+    "img": "../../images/recordRidge2.webp",
+    "title": "record ridge bike trail rocky",
     "cols": 2
   },
   {
-    "img": "../../images/rossland.png",
-    "title": "record ridge 1",
+    "img": "../../images/recordRidge3.webp",
+    "title": "record ridge bike trail fall",
+    "cols": 2
+  },
+  {
+    "img": "../../images/rossland.webp",
+    "title": "main street rossland",
+    "cols": 2
+  },
+
+  {
+    "img": "../../images/FORR_After_.webp",
+    "title": "record ridge after mine",
     "cols": 2
   }
 ]
