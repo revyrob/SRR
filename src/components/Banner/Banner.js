@@ -3,7 +3,7 @@ import "./Banner.scss";
 
 function Banner({ webpAfter }) {
   return (
-    <div className="mx-auto max-w-screen-xl ">
+    <div className="mx-auto max-w-screen-xl pt-20">
       <div className=" flex justify-center">
         <img
           className="h-[40vh] md:h-[90vh] object-cover absolute  z-999"
