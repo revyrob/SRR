@@ -10,8 +10,8 @@ function Action() {
       <h2 className="font-bold pl-4 pb-4">What can you do?</h2>
       <ol className="px-2 md:px-8">
         <li className="py-2">
-          1. Submit an impact statement us (SRR) and the Chief Inspector of
-          mines:
+          1. Submit an impact statement to the Chief Inspector of mines and to
+          us (SRR):
           <br></br>
           Chief Inspector of Mines, Ministry of Energy and Mines and Low Carbon
           - <a href="mailto:mmd-cranbrook@gov.bc.ca">mmd-cranbrook@gov.bc.ca</a>
