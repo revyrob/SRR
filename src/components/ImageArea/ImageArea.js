@@ -8,7 +8,7 @@ function ImageArea({ images }) {
   return (
     <section className="w-full flex flex-wrap m-auto bg-stone-200 justify-center">
       {concerns.map((item) => (
-        <div className="flex flex-col">
+        <div key={item.title} className="flex flex-col">
           <img className="h-[15rem] m-4 " src={item.img} alt={item.title}></img>
           {!item.credits ? null : (
             <p className="bg-black text-white m-4 p-2">{item.credits}</p>
